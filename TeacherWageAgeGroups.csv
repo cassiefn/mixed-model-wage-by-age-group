@@ -1,0 +1,648 @@
+SubjectID,Age,Level,Title,EmployLengthMonth,EmployLengthYear,HoursPerWeek,HourlyWage,Infants,Toddlers,Preschoolers,Elementary,Middle,HighSchool,Adults,OrgId,County,ProgramType
+1,58,Level 4,Early Childhood Teacher,43,3.58,40,13.71,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,20384,Cascade,Child Care Center
+2,60,Level 4,Early Childhood Teacher,32,2.67,40,14.16,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14775,Lewis and Clark,Child Care Center
+3,59,Level 6 Certification,Early Childhood Teacher,237,19.75,40,0,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14938,Gallatin,Child Care Center
+4,65,Level 6 Certification,Early Childhood Teacher,314,26.17,35,15.75,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14909,Flathead,Child Care Center
+5,54,Level 6 Certification,Early Childhood Teacher,291,24.25,40,18.5,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,15081,Missoula,Child Care Center
+6,66,Level 8 Certification,Early Childhood Teacher,470,39.17,20,0,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,15470,Missoula,Child Care Center
+7,38,Level 4,Early Childhood Teacher,237,19.75,40,0,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,15470,Missoula,Child Care Center
+8,48,Level 2,Early Childhood Teacher,32,2.67,40,12,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,22018,Lewis and Clark,Child Care Center
+9,61,Level 2,Early Childhood Teacher,223,18.58,35,13.25,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14895,Cascade,Child Care Center
+10,46,Level 2,Early Childhood Teacher,19,1.58,40,16.24,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,15349,Lewis and Clark,Child Care Center
+11,51,Level 2,Early Childhood Teacher,162,13.5,40,10.86,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,21991,Ravalli,Child Care Center
+12,59,Level 3,Early Childhood Teacher,45,3.75,15,13,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,21222,Fergus,Child Care Center
+13,48,Level 3,Early Childhood Teacher,43,3.58,40,14.8,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,15090,Lewis and Clark,Child Care Center
+14,38,Level 5 Certification,Early Childhood Teacher,202,16.83,40,0,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14819,Missoula,Child Care Center
+15,44,Level 6 Certification,Early Childhood Teacher,175,14.58,40,13,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,14721,Flathead,Child Care Center
+16,58,Level 2,Early Childhood Teacher,249,20.75,15,12.5,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,14721,Flathead,Child Care Center
+17,42,Level 3,Early Childhood Teacher,93,7.75,40,13.5,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,14721,Flathead,Child Care Center
+18,47,Level 1,Early Childhood Teacher,6,0.5,40,10,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,20034,Yellowstone,Child Care Center
+19,67,Level 3,Early Childhood Teacher,150,12.5,40,0,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,15212,Flathead,Child Care Center
+20,45,Level 2,Early Childhood Teacher,113,9.42,40,15.35,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,15212,Flathead,Child Care Center
+21,69,Level 5 Certification,Early Childhood Teacher,342,28.5,40,13.4,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14745,Yellowstone,Child Care Center
+22,69,Level 6 Certification,Early Childhood Teacher,210,17.5,25,15.65,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14909,Flathead,Child Care Center
+23,54,Level 2,Early Childhood Teacher,50,4.17,40,13.19,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,15038,Missoula,Child Care Center
+24,60,Level 3,Early Childhood Teacher,103,8.58,40,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14897,Missoula,Child Care Center
+25,73,Level 2,Early Childhood Teacher,11,0.92,32,9.25,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,20049,Yellowstone,Child Care Center
+26,56,Level 2,Early Childhood Teacher,12,1,40,15,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,22980,Lewis and Clark,Child Care Center
+27,50,Level 2,Early Childhood Teacher,308,25.67,40,12.25,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,20831,Lewis and Clark,Child Care Center
+28,66,Level 1,Early Childhood Teacher,261,21.75,25,0,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,22210,Yellowstone,Child Care Center
+29,67,Level 2,Early Childhood Teacher,309,25.75,40,14.18,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,15044,Gallatin,Child Care Center
+30,60,Level 3,Early Childhood Teacher,35,2.92,40,11.5,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,20373,Lincoln,Child Care Center
+31,44,Level 7 Certification,Early Childhood Teacher,7,0.58,40,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,22511,Yellowstone,Child Care Center
+32,49,Level 1,Early Childhood Teacher,29,2.42,40,13.07,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,22045,Yellowstone,Child Care Center
+33,60,Level 1,Early Childhood Teacher,333,27.75,40,12,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,14888,Yellowstone,Child Care Center
+34,54,Level 3,Early Childhood Teacher,44,3.67,10,12,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,20034,Yellowstone,Child Care Center
+35,51,Level 4,Early Childhood Teacher,283,23.58,15,11.75,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14739,Fergus,Child Care Center
+36,63,Level 3,Early Childhood Teacher,25,2.08,40,13.5,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,22365,Missoula,Child Care Center
+37,52,Level 8 Certification,Early Childhood Teacher,8,0.67,40,19.26,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,23026,Gallatin,Child Care Center
+38,37,Level 2,Early Childhood Teacher,74,6.17,40,10,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,20034,Yellowstone,Child Care Center
+39,55,Level 2,Early Childhood Teacher,112,9.33,40,11,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,14888,Yellowstone,Child Care Center
+40,41,Level 3,Early Childhood Teacher,117,9.75,30,0,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,14737,Missoula,Child Care Center
+41,47,Level 1,Early Childhood Teacher,241,20.08,40,18.5,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14850,Gallatin,Child Care Center
+42,68,Level 1,Early Childhood Teacher,268,22.33,40,11.75,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,14888,Yellowstone,Child Care Center
+43,47,Level 5 Certification,Early Childhood Teacher,106,8.83,20,14.86,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,15310,Missoula,Child Care Center
+44,57,Level 5 Certification,Early Childhood Teacher,175,14.58,40,11.8,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,22210,Yellowstone,Child Care Center
+45,57,Level 3,Early Childhood Teacher,144,12,40,11.11,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,15083,Lewis and Clark,Child Care Center
+46,60,Level 2,Early Childhood Teacher,101,8.42,40,13.47,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,15212,Flathead,Child Care Center
+47,60,Level 5 Certification,Early Childhood Teacher,177,14.75,40,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,15090,Lewis and Clark,Child Care Center
+48,59,Level 1,Early Childhood Teacher,19,1.58,40,10.5,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,14755,Yellowstone,Child Care Center
+49,60,Level 4,Early Childhood Teacher,127,10.58,40,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,15081,Missoula,Child Care Center
+50,58,Level 5 Certification,Early Childhood Teacher,325,27.08,35,13.45,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14826,Cascade,Child Care Center
+51,35,Level 2,Early Childhood Teacher,6,0.5,40,0,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,15266,Silver Bow,Child Care Center
+52,36,Level 4,Early Childhood Teacher,97,8.08,10,15.71,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,14897,Missoula,Child Care Center
+53,46,Level 2,Early Childhood Teacher,208,17.33,40,0,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,15266,Silver Bow,Child Care Center
+54,74,Level 1,Early Childhood Teacher,22,1.83,14,10.5,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,21904,Yellowstone,Child Care Center
+55,45,Level 2,Early Childhood Teacher,57,4.75,40,20,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,18306,Gallatin,Child Care Center
+56,49,Level 2,Early Childhood Teacher,163,13.58,10,11.36,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,14755,Yellowstone,Child Care Center
+57,59,Level 2,Early Childhood Teacher,54,4.5,40,11.5,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14976,Yellowstone,Child Care Center
+58,35,Level 1,Early Childhood Teacher,223,18.58,35,27,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,19718,Yellowstone,Child Care Center
+59,60,Level 8 Certification,Early Childhood Teacher,210,17.5,35,16.63,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,20382,Cascade,Child Care Center
+60,67,Membership,Early Childhood Teacher,54,4.5,32,10,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,20247,Lewis and Clark,Child Care Center
+61,38,Level 2,Early Childhood Teacher,113,9.42,40,0,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,15451,Silver Bow,Child Care Center
+62,62,Level 2,Early Childhood Teacher,30,2.5,40,15.35,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,22695,Yellowstone,Child Care Center
+63,39,Level 7 Certification,Early Childhood Teacher,191,15.92,40,12.17,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14755,Yellowstone,Child Care Center
+64,49,Level 2,Early Childhood Teacher,24,2,40,12,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,21567,Missoula,Child Care Center
+65,36,Level 3,Early Childhood Teacher,27,2.25,40,13,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,22695,Yellowstone,Child Care Center
+66,44,Level 8 Certification,Early Childhood Teacher,84,7,40,16.14,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,15212,Flathead,Child Care Center
+67,47,Level 9 Certification,Early Childhood Teacher,4,0.33,38,16,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14745,Yellowstone,Child Care Center
+68,49,Level 2,Early Childhood Teacher,79,6.58,40,10.35,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,20139,Yellowstone,Child Care Center
+69,39,Level 2,Early Childhood Teacher,202,16.83,40,18,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,19718,Yellowstone,Child Care Center
+70,56,Level 2,Early Childhood Teacher,59,4.92,40,11.25,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,21032,Silver Bow,Child Care Center
+71,42,Level 2,Early Childhood Teacher,135,11.25,40,11.66,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,14755,Yellowstone,Child Care Center
+72,52,Level 4,Early Childhood Teacher,117,9.75,40,0,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,15111,Yellowstone,Child Care Center
+73,54,Level 2,Early Childhood Teacher,163,13.58,29,14.83,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,21228,Cascade,Child Care Center
+74,41,Level 8 Certification,Early Childhood Teacher,17,1.42,40,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,21131,Park,Child Care Center
+75,60,Level 8 Certification,Early Childhood Teacher,158,13.17,40,0,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14710,Missoula,Child Care Center
+76,43,Level 4,Early Childhood Teacher,50,4.17,40,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,21150,Gallatin,Child Care Center
+77,68,Level 3,Early Childhood Teacher,194,16.17,25,12,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,14761,Missoula,Child Care Center
+78,57,Level 5 Certification,Early Childhood Teacher,71,5.92,40,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,15212,Flathead,Child Care Center
+79,48,Level 5 Certification,Early Childhood Teacher,30,2.5,40,13.01,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,15212,Flathead,Child Care Center
+80,54,Level 1,Early Childhood Teacher,324,27,20,19,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,19718,Yellowstone,Child Care Center
+81,37,Level 5 Certification,Early Childhood Teacher,10,0.83,30,14.27,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14710,Missoula,Child Care Center
+82,72,Level 2,Early Childhood Teacher,198,16.5,20,0,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,22151,Flathead,Child Care Center
+83,35,Level 2,Early Childhood Teacher,156,13,40,13,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,20639,Missoula,Child Care Center
+84,36,Level 9 Certification,Early Childhood Teacher,115,9.58,30,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,20644,Missoula,Child Care Center
+85,36,Level 2,Early Childhood Teacher,161,13.42,40,10.5,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,14842,Cascade,Child Care Center
+86,68,Level 2,Early Childhood Teacher,49,4.08,40,11.5,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14934,Lewis and Clark,Child Care Center
+87,50,Level 1,Early Childhood Teacher,1,0.08,40,9.75,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,15503,Cascade,Child Care Center
+88,62,Level 5 Certification,Early Childhood Teacher,7,0.58,40,14.82,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,23187,Lewis and Clark,Child Care Center
+89,67,Level 6 Certification,Early Childhood Teacher,43,3.58,40,15.1,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,15352,Lewis and Clark,Child Care Center
+90,63,Level 1,Early Childhood Teacher,218,18.17,30,11.14,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,22710,Yellowstone,Child Care Center
+91,53,Level 1,Early Childhood Teacher,222,18.5,40,20,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,14850,Gallatin,Child Care Center
+92,33,Level 2,Early Childhood Teacher,70,5.83,40,12,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,15420,Lewis and Clark,Child Care Center
+93,49,Level 2,Early Childhood Teacher,49,4.08,40,12,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,14739,Fergus,Child Care Center
+94,42,Level 5 Certification,Early Childhood Teacher,25,2.08,36,13.5,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,22213,Cascade,Child Care Center
+95,35,Level 1,Early Childhood Teacher,20,1.67,40,10.1,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14934,Lewis and Clark,Child Care Center
+96,40,Level 2,Early Childhood Teacher,145,12.08,40,12.5,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,14744,Yellowstone,Child Care Center
+97,44,Level 1,Early Childhood Teacher,23,1.92,40,12.5,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,22045,Yellowstone,Child Care Center
+98,39,Level 4,Early Childhood Teacher,187,15.58,30,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,15451,Silver Bow,Child Care Center
+99,38,Level 8 Certification,Early Childhood Teacher,14,1.17,40,17.44,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14898,Hill,Child Care Center
+100,58,Level 5 Certification,Early Childhood Teacher,181,15.08,30,11.8,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,22210,Yellowstone,Child Care Center
+101,41,Level 3,Early Childhood Teacher,25,2.08,40,10,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,15409,Cascade,Child Care Center
+102,35,Level 2,Early Childhood Teacher,42,3.5,40,12,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,21493,Missoula,Child Care Center
+103,45,Level 2,Early Childhood Teacher,2,0.17,30,8.5,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,23373,Cascade,Child Care Center
+104,46,Level 1,Early Childhood Teacher,30,2.5,40,13.5,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,21254,Richland,Child Care Center
+105,57,Level 2,Early Childhood Teacher,187,15.58,40,15.4,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,15212,Flathead,Child Care Center
+106,35,Level 2,Early Childhood Teacher,59,4.92,40,11,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14954,Rosebud,Child Care Center
+107,32,Level 1,Early Childhood Teacher,183,15.25,35,27,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,19718,Yellowstone,Child Care Center
+108,35,Level 2,Early Childhood Teacher,128,10.67,32,9.53,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,21991,Ravalli,Child Care Center
+109,39,Level 2,Early Childhood Teacher,4,0.33,40,0,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,22912,Jefferson,Child Care Center
+110,43,Level 1,Early Childhood Teacher,248,20.67,40,13.5,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,14974,Yellowstone,Child Care Center
+111,36,Level 1,Early Childhood Teacher,6,0.5,40,10,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,15409,Cascade,Child Care Center
+112,58,Level 2,Early Childhood Teacher,11,0.92,40,9,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,20154,Silver Bow,Child Care Center
+113,61,Level 8 Certification,Early Childhood Teacher,293,24.42,40,17.66,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,21066,Lewis and Clark,Child Care Center
+114,52,Level 2,Early Childhood Teacher,177,14.75,20,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14747,Cascade,Child Care Center
+115,37,Level 5 Certification,Early Childhood Teacher,177,14.75,40,0,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,15420,Lewis and Clark,Child Care Center
+116,34,Level 5 Certification,Early Childhood Teacher,53,4.42,40,14.94,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14873,Flathead,Child Care Center
+117,50,Level 5 Certification,Early Childhood Teacher,9,0.75,40,13,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,20647,Flathead,Child Care Center
+118,33,Level 1,Early Childhood Teacher,9,0.75,30,10,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,22396,Big Horn,Child Care Center
+119,57,Level 5 Certification,Early Childhood Teacher,42,3.5,40,14.97,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,15212,Flathead,Child Care Center
+120,34,Level 5 Certification,Early Childhood Teacher,60,5,40,16.11,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14898,Hill,Child Care Center
+121,55,Level 1,Early Childhood Teacher,30,2.5,20,12,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,15111,Yellowstone,Child Care Center
+122,39,Level 2,Early Childhood Teacher,118,9.83,40,14.5,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,15350,Lake,Child Care Center
+123,35,Membership,Early Childhood Teacher,170,14.17,40,0,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,22851,Yellowstone,Child Care Center
+124,43,Level 7 Certification,Early Childhood Teacher,18,1.5,40,16.06,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,15388,Lake,Child Care Center
+125,34,Level 2,Early Childhood Teacher,162,13.5,20,0,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,22699,Richland,Child Care Center
+126,60,Level 2,Early Childhood Teacher,174,14.5,15,9.5,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14901,Stillwater,Child Care Center
+127,35,Level 1,Early Childhood Teacher,79,6.58,40,19,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,19718,Yellowstone,Child Care Center
+128,35,Level 1,Early Childhood Teacher,31,2.58,40,10.15,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14888,Yellowstone,Child Care Center
+129,34,Level 2,Early Childhood Teacher,9,0.75,20,0,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,22583,Yellowstone,Child Care Center
+130,35,Level 5 Certification,Early Childhood Teacher,137,11.42,40,12.78,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14705,Silver Bow,Child Care Center
+131,68,Level 2,Early Childhood Teacher,90,7.5,40,9.4,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,20139,Yellowstone,Child Care Center
+132,70,Level 2,Early Childhood Teacher,137,11.42,35,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,20395,Gallatin,Child Care Center
+133,44,Level 2,Early Childhood Teacher,91,7.58,20,9.83,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,14888,Yellowstone,Child Care Center
+134,35,Level 3,Early Childhood Teacher,25,2.08,40,10.4,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,22213,Cascade,Child Care Center
+135,48,Level 2,Early Childhood Teacher,40,3.33,40,10.5,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,21498,Yellowstone,Child Care Center
+136,37,Level 2,Early Childhood Teacher,14,1.17,40,9,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,15503,Cascade,Child Care Center
+137,52,Level 4,Early Childhood Teacher,25,2.08,40,11.35,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,22213,Cascade,Child Care Center
+138,33,Level 2,Early Childhood Teacher,115,9.58,40,11.25,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14755,Yellowstone,Child Care Center
+139,33,Level 2,Early Childhood Teacher,134,11.17,40,13,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,20061,Lewis and Clark,Child Care Center
+140,53,Level 5 Certification,Early Childhood Teacher,31,2.58,40,16.33,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14873,Flathead,Child Care Center
+141,68,Level 2,Early Childhood Teacher,21,1.75,20,10.25,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,22151,Flathead,Child Care Center
+142,51,Level 5 Certification,Early Childhood Teacher,13,1.08,30,14.04,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14826,Cascade,Child Care Center
+143,31,Level 5 Certification,Early Childhood Teacher,79,6.58,35,14,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,15451,Silver Bow,Child Care Center
+144,29,Level 5 Certification,Early Childhood Teacher,43,3.58,36,11.25,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14739,Fergus,Child Care Center
+145,53,Level 1,Early Childhood Teacher,31,2.58,40,11,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,22710,Yellowstone,Child Care Center
+146,33,Level 1,Early Childhood Teacher,26,2.17,40,13,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,22045,Yellowstone,Child Care Center
+147,61,Level 1,Early Childhood Teacher,29,2.42,40,9.5,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,20033,Yellowstone,Child Care Center
+148,30,Level 8 Certification,Early Childhood Teacher,163,13.58,20,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14739,Fergus,Child Care Center
+149,37,Level 1,Early Childhood Teacher,67,5.58,40,11.75,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,20695,Yellowstone,Child Care Center
+150,38,Level 1,Early Childhood Teacher,14,1.17,30,17,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,19718,Yellowstone,Child Care Center
+151,42,Level 2,Early Childhood Teacher,48,4,40,0,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,22851,Yellowstone,Child Care Center
+152,35,Level 1,Early Childhood Teacher,24,2,40,9.25,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,23373,Cascade,Child Care Center
+153,32,Level 1,Early Childhood Teacher,156,13,40,12.5,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,20061,Lewis and Clark,Child Care Center
+154,36,Level 1,Early Childhood Teacher,36,3,40,10,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,20630,Yellowstone,Child Care Center
+155,44,Level 1,Early Childhood Teacher,14,1.17,38,12.5,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14745,Yellowstone,Child Care Center
+156,68,Level 2,Early Childhood Teacher,107,8.92,40,15.5,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,20395,Gallatin,Child Care Center
+157,50,Level 5 Certification,Early Childhood Teacher,221,18.42,40,16.83,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,23339,Hill,Child Care Center
+158,46,Level 4,Early Childhood Teacher,55,4.58,35,14.13,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14759,Gallatin,Child Care Center
+159,50,Level 1,Early Childhood Teacher,28,2.33,35,0,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,22210,Yellowstone,Child Care Center
+160,34,Level 3,Early Childhood Teacher,42,3.5,40,13.85,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,20384,Cascade,Child Care Center
+161,35,Level 2,Early Childhood Teacher,156,13,35,11.77,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,15296,Missoula,Child Care Center
+162,34,Level 2,Early Childhood Teacher,114,9.5,37,13.5,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,21198,Missoula,Child Care Center
+163,35,Level 7 Certification,Early Childhood Teacher,152,12.67,40,15.44,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,14755,Yellowstone,Child Care Center
+164,35,Level 2,Early Childhood Teacher,48,4,40,12,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,19926,Lake,Child Care Center
+165,39,Level 9 Certification,Early Childhood Teacher,152,12.67,40,0,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14755,Yellowstone,Child Care Center
+166,35,Level 2,Early Childhood Teacher,27,2.25,40,10.25,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,22699,Richland,Child Care Center
+167,31,Level 3,Early Childhood Teacher,18,1.5,40,9,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14747,Cascade,Child Care Center
+168,64,Level 6 Certification,Early Childhood Teacher,151,12.58,40,0,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,14938,Gallatin,Child Care Center
+169,54,Level 4,Early Childhood Teacher,11,0.92,40,12,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,21567,Missoula,Child Care Center
+170,50,Level 2,Early Childhood Teacher,143,11.92,40,11.15,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,20708,Cascade,Child Care Center
+171,68,Level 2,Early Childhood Teacher,151,12.58,40,12,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,14888,Yellowstone,Child Care Center
+172,58,Level 2,Early Childhood Teacher,153,12.75,40,0,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,21131,Park,Child Care Center
+173,41,Level 2,Early Childhood Teacher,19,1.58,35,17.3,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,15281,Flathead,Child Care Center
+174,67,Level 2,Early Childhood Teacher,154,12.83,40,9.52,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,21991,Ravalli,Child Care Center
+175,31,Level 2,Early Childhood Teacher,43,3.58,40,12,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,15503,Cascade,Child Care Center
+176,31,Level 3,Early Childhood Teacher,34,2.83,40,13.66,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14898,Hill,Child Care Center
+177,38,Level 8 Certification,Early Childhood Teacher,7,0.58,32,17.54,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,15126,Missoula,Child Care Center
+178,36,Level 8 Certification,Early Childhood Teacher,29,2.42,40,15.5,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,22045,Yellowstone,Child Care Center
+179,35,Level 2,Early Childhood Teacher,7,0.58,20,14.82,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,15351,Lewis and Clark,Child Care Center
+180,47,Membership,Early Childhood Teacher,139,11.58,25,0,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,22583,Yellowstone,Child Care Center
+181,51,Level 8 Certification,Early Childhood Teacher,7,0.58,40,19.6,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14898,Hill,Child Care Center
+182,37,Level 2,Early Childhood Teacher,161,13.42,20,0,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,15111,Yellowstone,Child Care Center
+183,35,Level 1,Early Childhood Teacher,57,4.75,40,8.4,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,19613,Ravalli,Child Care Center
+184,29,Level 1,Early Childhood Teacher,11,0.92,11,10.5,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,21067,Stillwater,Child Care Center
+185,40,Level 5 Certification,Early Childhood Teacher,19,1.58,40,15.25,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,22512,Yellowstone,Child Care Center
+186,31,Level 1,Early Childhood Teacher,109,9.08,30,14,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,19718,Yellowstone,Child Care Center
+187,31,Level 1,Early Childhood Teacher,74,6.17,40,12.25,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,21198,Missoula,Child Care Center
+188,52,Level 2,Early Childhood Teacher,143,11.92,20,14.68,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14897,Missoula,Child Care Center
+189,62,Level 8 Certification,Early Childhood Teacher,2,0.17,30,15.1,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14710,Missoula,Child Care Center
+190,34,Level 5 Certification,Early Childhood Teacher,113,9.42,40,0,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,22851,Yellowstone,Child Care Center
+191,31,Level 1,Early Childhood Teacher,5,0.42,32,9.3,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,19613,Ravalli,Child Care Center
+192,48,Level 2,Early Childhood Teacher,149,12.42,40,11.23,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,22617,Dawson,Child Care Center
+193,20,Level 6 Certification,Early Childhood Teacher,48,4,40,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,19446,Gallatin,Child Care Center
+194,65,Level 4,Early Childhood Teacher,19,1.58,40,12.25,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,19446,Gallatin,Child Care Center
+195,28,Level 1,Early Childhood Teacher,139,11.58,40,0,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,22851,Yellowstone,Child Care Center
+196,55,Level 2,Early Childhood Teacher,139,11.58,40,9.5,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,20154,Silver Bow,Child Care Center
+197,36,Level 9 Certification,Early Childhood Teacher,7,0.58,35,22.4,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,15281,Flathead,Child Care Center
+198,51,Level 1,Early Childhood Teacher,151,12.58,40,0,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,14997,Flathead,Child Care Center
+199,50,Level 5 Certification,Early Childhood Teacher,105,8.75,40,15.15,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,15094,Ravalli,Child Care Center
+200,61,Level 2,Early Childhood Teacher,137,11.42,15,13.48,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,14818,Cascade,Child Care Center
+201,40,Level 8 Certification,Early Childhood Teacher,133,11.08,30,16.64,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14710,Missoula,Child Care Center
+202,28,Level 2,Early Childhood Teacher,5,0.42,40,12,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,22045,Yellowstone,Child Care Center
+203,51,Level 7 Certification,Early Childhood Teacher,318,26.5,40,15.8,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,18860,Ravalli,Child Care Center
+204,41,Level 2,Early Childhood Teacher,22,1.83,30,11.33,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,14721,Flathead,Child Care Center
+205,42,Level 1,Early Childhood Teacher,12,1,40,11.75,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,22045,Yellowstone,Child Care Center
+206,65,Level 2,Early Childhood Teacher,87,7.25,40,16.39,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,20383,Cascade,Child Care Center
+207,31,Level 1,Early Childhood Teacher,49,4.08,40,14.33,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14818,Cascade,Child Care Center
+208,40,Level 2,Early Childhood Teacher,54,4.5,35,8.5,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14968,Missoula,Child Care Center
+209,33,Level 2,Early Childhood Teacher,70,5.83,20,15,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,21904,Yellowstone,Child Care Center
+210,60,Level 2,Early Childhood Teacher,65,5.42,40,10,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,20247,Lewis and Clark,Child Care Center
+211,46,Level 3,Early Childhood Teacher,75,6.25,30,13.26,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14818,Cascade,Child Care Center
+212,27,Level 1,Early Childhood Teacher,14,1.17,40,9.15,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,20708,Cascade,Child Care Center
+213,27,Level 8 Certification,Early Childhood Teacher,42,3.5,38,12.5,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,16402,Gallatin,Child Care Center
+214,29,Level 2,Early Childhood Teacher,7,0.58,34,10.88,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,22513,Yellowstone,Child Care Center
+215,30,Level 2,Early Childhood Teacher,45,3.75,36,11.5,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14739,Fergus,Child Care Center
+216,28,Level 3,Early Childhood Teacher,18,1.5,40,10,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,22213,Cascade,Child Care Center
+217,30,Level 3,Early Childhood Teacher,29,2.42,15,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,20154,Silver Bow,Child Care Center
+218,52,Level 2,Early Childhood Teacher,12,1,37,12.5,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14745,Yellowstone,Child Care Center
+219,29,Level 1,Early Childhood Teacher,127,10.58,40,10.5,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14934,Lewis and Clark,Child Care Center
+220,38,Level 5 Certification,Early Childhood Teacher,121,10.08,40,20.5,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,21942,Flathead,Child Care Center
+221,34,Level 2,Early Childhood Teacher,132,11,38,0,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,15212,Flathead,Child Care Center
+222,37,Level 4,Early Childhood Teacher,133,11.08,35,17,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,20323,Gallatin,Child Care Center
+223,36,Level 8 Certification,Early Childhood Teacher,19,1.58,40,14.66,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14710,Missoula,Child Care Center
+224,36,Membership,Early Childhood Teacher,33,2.75,40,14,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,22624,Missoula,Child Care Center
+225,63,Level 2,Early Childhood Teacher,151,12.58,40,15.42,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,15038,Missoula,Child Care Center
+226,25,Level 2,Early Childhood Teacher,10,0.83,40,12.12,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14953,Missoula,Child Care Center
+227,37,Level 1,Early Childhood Teacher,6,0.5,40,11,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,20033,Yellowstone,Child Care Center
+228,33,Level 1,Early Childhood Teacher,122,10.17,33,16,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,19718,Yellowstone,Child Care Center
+229,30,Level 3,Early Childhood Teacher,141,11.75,40,8.3,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14848,Silver Bow,Child Care Center
+230,28,Level 2,Early Childhood Teacher,36,3,40,0,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,15111,Yellowstone,Child Care Center
+231,30,Level 5 Certification,Early Childhood Teacher,14,1.17,40,14.55,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14711,Flathead,Child Care Center
+232,25,Level 5 Certification,Early Childhood Teacher,124,10.33,35,11.23,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,22617,Dawson,Child Care Center
+233,34,Level 2,Early Childhood Teacher,25,2.08,40,14.22,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,15310,Missoula,Child Care Center
+234,46,Level 3,Early Childhood Teacher,14,1.17,40,15.59,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,20384,Cascade,Child Care Center
+235,38,Level 3,Early Childhood Teacher,23,1.92,24,10,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14784,Gallatin,Child Care Center
+236,44,Level 1,Early Childhood Teacher,32,2.67,40,12,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,22185,Flathead,Child Care Center
+237,34,Level 2,Early Childhood Teacher,91,7.58,35,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14968,Missoula,Child Care Center
+238,39,Level 1,Early Childhood Teacher,17,1.42,40,11.5,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14934,Lewis and Clark,Child Care Center
+239,38,Level 8 Certification,Early Childhood Teacher,29,2.42,40,14.25,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,22695,Yellowstone,Child Care Center
+240,28,Level 3,Early Childhood Teacher,9,0.75,38,10.6,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,22213,Cascade,Child Care Center
+241,30,Level 2,Early Childhood Teacher,43,3.58,40,13.04,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14818,Cascade,Child Care Center
+242,31,Level 2,Early Childhood Teacher,31,2.58,35,10.25,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,15311,Gallatin,Child Care Center
+243,28,Level 1,Early Childhood Teacher,35,2.92,40,12.05,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,15212,Flathead,Child Care Center
+244,39,Level 2,Early Childhood Teacher,6,0.5,30,16,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,15135,Park,Child Care Center
+245,46,Level 2,Early Childhood Teacher,162,13.5,36,14.95,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,15135,Park,Child Care Center
+246,36,Level 5 Certification,Early Childhood Teacher,26,2.17,40,11.47,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14747,Cascade,Child Care Center
+247,50,Level 4,Early Childhood Teacher,30,2.5,40,10,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14755,Yellowstone,Child Care Center
+248,29,Level 1,Early Childhood Teacher,10,0.83,40,12.17,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,21405,Gallatin,Child Care Center
+249,44,Level 1,Early Childhood Teacher,29,2.42,40,10.5,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,20630,Yellowstone,Child Care Center
+250,30,Level 4,Early Childhood Teacher,21,1.75,40,13.65,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14818,Cascade,Child Care Center
+251,27,Level 2,Early Childhood Teacher,32,2.67,40,12,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,15111,Yellowstone,Child Care Center
+252,38,Level 1,Early Childhood Teacher,19,1.58,40,12.25,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14934,Lewis and Clark,Child Care Center
+253,42,Level 3,Early Childhood Teacher,116,9.67,30,18.54,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,21942,Flathead,Child Care Center
+254,52,Level 2,Early Childhood Teacher,115,9.58,40,28,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,20439,Missoula,Child Care Center
+255,38,Level 8 Certification,Early Childhood Teacher,11,0.92,35,14,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,14909,Flathead,Child Care Center
+256,36,Level 1,Early Childhood Teacher,115,9.58,24,15,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,19458,Gallatin,Child Care Center
+257,50,Level 7 Certification,Early Childhood Teacher,199,16.58,40,17.42,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,22512,Yellowstone,Child Care Center
+258,48,Level 2,Early Childhood Teacher,72,6,40,15.06,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,15212,Flathead,Child Care Center
+259,28,Level 8 Certification,Early Childhood Teacher,6,0.5,40,15,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,15409,Cascade,Child Care Center
+260,27,Level 1,Early Childhood Teacher,24,2,40,9.5,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,20630,Yellowstone,Child Care Center
+261,52,Level 7 Certification,Early Childhood Teacher,100,8.33,30,15.52,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14710,Missoula,Child Care Center
+262,34,Level 3,Early Childhood Teacher,109,9.08,38,12.1,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14737,Missoula,Child Care Center
+263,65,Level 7 Certification,Early Childhood Teacher,109,9.08,40,12,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,20139,Yellowstone,Child Care Center
+264,32,Level 2,Early Childhood Teacher,68,5.67,40,8.3,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,14976,Yellowstone,Child Care Center
+265,29,Level 2,Early Childhood Teacher,24,2,40,8.5,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,20049,Yellowstone,Child Care Center
+266,28,Level 3,Early Childhood Teacher,38,3.17,40,11,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14705,Silver Bow,Child Care Center
+267,37,Membership,Early Childhood Teacher,65,5.42,40,12,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,20421,Yellowstone,Child Care Center
+268,47,Level 2,Early Childhood Teacher,111,9.25,40,11.15,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14721,Flathead,Child Care Center
+269,33,Level 2,Early Childhood Teacher,105,8.75,40,10.75,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,20061,Lewis and Clark,Child Care Center
+270,63,Level 2,Early Childhood Teacher,106,8.83,30,12,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14743,Cascade,Child Care Center
+271,31,Level 2,Early Childhood Teacher,105,8.75,40,0,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,21150,Gallatin,Child Care Center
+272,59,Level 5 Certification,Early Childhood Teacher,67,5.58,30,17.47,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14710,Missoula,Child Care Center
+273,48,Level 2,Early Childhood Teacher,21,1.75,40,0,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,21131,Park,Child Care Center
+274,26,Level 2,Early Childhood Teacher,109,9.08,38,12.83,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,21405,Gallatin,Child Care Center
+275,29,Level 3,Early Childhood Teacher,102,8.5,40,14,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14800,Lewis and Clark,Child Care Center
+276,57,Level 2,Early Childhood Teacher,90,7.5,40,11.75,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,20373,Lincoln,Child Care Center
+277,33,Level 3,Early Childhood Teacher,32,2.67,40,10,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,21831,Cascade,Child Care Center
+278,29,Level 8 Certification,Early Childhood Teacher,30,2.5,40,19.08,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,22105,Lincoln,Child Care Center
+279,27,Level 1,Early Childhood Teacher,5,0.42,40,0,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,22851,Yellowstone,Child Care Center
+280,27,Level 2,Early Childhood Teacher,24,2,40,13.5,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,22045,Yellowstone,Child Care Center
+281,27,Level 1,Early Childhood Teacher,36,3,40,16.04,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,22513,Yellowstone,Child Care Center
+282,41,Level 4,Early Childhood Teacher,19,1.58,25,10.5,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,22583,Yellowstone,Child Care Center
+283,47,Level 2,Early Childhood Teacher,26,2.17,40,10.25,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,22699,Richland,Child Care Center
+284,35,Level 4,Early Childhood Teacher,102,8.5,40,18,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,19718,Yellowstone,Child Care Center
+285,28,Level 2,Early Childhood Teacher,55,4.58,40,12.73,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,22740,Deer Lodge,Child Care Center
+286,36,Level 1,Early Childhood Teacher,50,4.17,15,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,15128,Gallatin,Child Care Center
+287,26,Level 8 Certification,Early Childhood Teacher,19,1.58,40,11.95,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,21405,Gallatin,Child Care Center
+288,54,Level 2,Early Childhood Teacher,66,5.5,40,10.75,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14755,Yellowstone,Child Care Center
+289,27,Level 8 Certification,Early Childhood Teacher,19,1.58,40,20,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,20892,Gallatin,Child Care Center
+290,28,Level 1,Early Childhood Teacher,55,4.58,40,15,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,21254,Richland,Child Care Center
+291,33,Level 2,Early Childhood Teacher,60,5,35,8.3,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,20139,Yellowstone,Child Care Center
+292,28,Level 2,Early Childhood Teacher,5,0.42,20,10,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14740,Ravalli,Child Care Center
+293,40,Level 7 Certification,Early Childhood Teacher,114,9.5,40,16.94,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14873,Flathead,Child Care Center
+294,57,Level 2,Early Childhood Teacher,102,8.5,37,12.5,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,14877,Flathead,Child Care Center
+295,46,Level 3,Early Childhood Teacher,90,7.5,35,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,17698,Gallatin,Child Care Center
+296,39,Level 2,Early Childhood Teacher,18,1.5,40,11.75,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,20695,Yellowstone,Child Care Center
+297,35,Level 1,Early Childhood Teacher,2,0.17,30,9,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,15503,Cascade,Child Care Center
+298,35,Membership,Early Childhood Teacher,16,1.33,30,9.15,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,21991,Ravalli,Child Care Center
+299,25,Level 3,Early Childhood Teacher,25,2.08,40,10.75,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,22213,Cascade,Child Care Center
+300,37,Level 1,Early Childhood Teacher,51,4.25,40,12.5,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,20596,Missoula,Child Care Center
+301,27,Level 2,Early Childhood Teacher,117,9.75,40,9.3,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,15296,Missoula,Child Care Center
+302,33,Level 2,Early Childhood Teacher,50,4.17,20,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,21150,Gallatin,Child Care Center
+303,33,Level 2,Early Childhood Teacher,54,4.5,40,12.97,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,15285,Lewis and Clark,Child Care Center
+304,63,Level 5 Certification,Early Childhood Teacher,103,8.58,40,15.9,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14873,Flathead,Child Care Center
+305,60,Level 5 Certification,Early Childhood Teacher,17,1.42,40,15.72,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,21065,Lewis and Clark,Child Care Center
+306,40,Level 8 Certification,Early Childhood Teacher,19,1.58,40,21.44,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,15352,Lewis and Clark,Child Care Center
+307,49,Level 2,Early Childhood Teacher,12,1,35,13,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,20595,Jefferson,Child Care Center
+308,34,Level 1,Early Childhood Teacher,2,0.17,40,12,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,15409,Cascade,Child Care Center
+309,24,Level 1,Early Childhood Teacher,56,4.67,40,9.75,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14888,Yellowstone,Child Care Center
+310,34,Level 5 Certification,Early Childhood Teacher,54,4.5,40,15.97,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,15352,Lewis and Clark,Child Care Center
+311,41,Level 2,Early Childhood Teacher,78,6.5,36,15.62,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,15135,Park,Child Care Center
+312,27,Level 8 Certification,Early Childhood Teacher,60,5,40,16,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,15128,Gallatin,Child Care Center
+313,21,Level 1,Early Childhood Teacher,8,0.67,35,8.5,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,21462,Blaine,Child Care Center
+314,39,Level 5 Certification,Early Childhood Teacher,31,2.58,40,17.25,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,22105,Lincoln,Child Care Center
+315,32,Level 1,Early Childhood Teacher,22,1.83,40,13,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,22045,Yellowstone,Child Care Center
+316,46,Level 7 Certification,Early Childhood Teacher,59,4.92,40,11.4,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,20421,Yellowstone,Child Care Center
+317,29,Level 2,Early Childhood Teacher,16,1.33,40,11,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,20595,Jefferson,Child Care Center
+318,25,Level 1,Early Childhood Teacher,18,1.5,40,12,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14953,Missoula,Child Care Center
+319,53,Level 1,Early Childhood Teacher,87,7.25,40,10,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,22151,Flathead,Child Care Center
+320,58,Level 4,Early Childhood Teacher,209,17.42,35,18.6,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,14826,Cascade,Child Care Center
+321,24,Level 8 Certification,Early Childhood Teacher,19,1.58,35,12.75,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,20319,Gallatin,Child Care Center
+322,45,Level 5 Certification,Early Childhood Teacher,31,2.58,40,14.27,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,22106,Lincoln,Child Care Center
+323,34,Level 2,Early Childhood Teacher,25,2.08,40,9.5,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,22699,Richland,Child Care Center
+324,30,Level 8 Certification,Early Childhood Teacher,8,0.67,40,18.47,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,23026,Gallatin,Child Care Center
+325,56,Level 8 Certification,Early Childhood Teacher,246,20.5,35,17,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14826,Cascade,Child Care Center
+326,40,Level 3,Early Childhood Teacher,55,4.58,40,15.15,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,15094,Ravalli,Child Care Center
+327,41,Level 1,Early Childhood Teacher,29,2.42,32,12.37,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,19905,Yellowstone,Child Care Center
+328,34,Level 4,Early Childhood Teacher,4,0.33,40,13,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,14740,Ravalli,Child Care Center
+329,63,Level 5 Certification,Early Childhood Teacher,402,33.5,40,17.61,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14873,Flathead,Child Care Center
+330,28,Level 2,Early Childhood Teacher,25,2.08,40,8.5,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,21518,Cascade,Child Care Center
+331,74,Level 2,Early Childhood Teacher,64,5.33,25,12.5,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,15311,Gallatin,Child Care Center
+332,41,Level 2,Early Childhood Teacher,85,7.08,40,11.25,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,21518,Cascade,Child Care Center
+333,27,Level 3,Early Childhood Teacher,13,1.08,40,10.25,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14800,Lewis and Clark,Child Care Center
+334,36,Level 1,Early Childhood Teacher,26,2.17,40,9.25,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,22389,Blaine,Child Care Center
+335,24,Level 1,Early Childhood Teacher,7,0.58,35,12.5,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,19718,Yellowstone,Child Care Center
+336,25,Level 1,Early Childhood Teacher,81,6.75,40,0,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,22851,Yellowstone,Child Care Center
+337,49,Level 3,Early Childhood Teacher,45,3.75,40,12.5,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,21222,Fergus,Child Care Center
+338,24,Level 2,Early Childhood Teacher,7,0.58,40,13,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,15350,Lake,Child Care Center
+339,44,Level 4,Early Childhood Teacher,26,2.17,30,17.5,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,22365,Missoula,Child Care Center
+340,35,Level 1,Early Childhood Teacher,68,5.67,40,10,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,19613,Ravalli,Child Care Center
+341,30,Level 2,Early Childhood Teacher,55,4.58,40,13,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,21493,Missoula,Child Care Center
+342,33,Level 3,Early Childhood Teacher,45,3.75,40,14.36,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14819,Missoula,Child Care Center
+343,52,Level 2,Early Childhood Teacher,21,1.75,40,10.22,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14819,Missoula,Child Care Center
+344,30,Level 2,Early Childhood Teacher,42,3.5,32,13,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,15212,Flathead,Child Care Center
+345,51,Level 2,Early Childhood Teacher,19,1.58,40,19,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14749,Gallatin,Child Care Center
+346,59,Level 3,Early Childhood Teacher,68,5.67,40,14,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,20427,Gallatin,Child Care Center
+347,25,Level 2,Early Childhood Teacher,34,2.83,40,11,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14705,Silver Bow,Child Care Center
+348,57,Level 2,Early Childhood Teacher,50,4.17,40,12,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14784,Gallatin,Child Care Center
+349,34,Level 1,Early Childhood Teacher,21,1.75,16,10,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,14970,Missoula,Child Care Center
+350,25,Level 2,Early Childhood Teacher,23,1.92,40,9.5,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,14747,Cascade,Child Care Center
+351,63,Level 3,Early Childhood Teacher,75,6.25,35,15.09,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,20384,Cascade,Child Care Center
+352,34,Level 2,Early Childhood Teacher,31,2.58,40,12.59,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,15285,Lewis and Clark,Child Care Center
+353,60,Level 3,Early Childhood Teacher,28,2.33,40,11.47,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14747,Cascade,Child Care Center
+354,30,Level 2,Early Childhood Teacher,78,6.5,40,11.4,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14755,Yellowstone,Child Care Center
+355,27,Level 4,Early Childhood Teacher,25,2.08,40,11,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14800,Lewis and Clark,Child Care Center
+356,38,Level 1,Early Childhood Teacher,24,2,40,13,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,22045,Yellowstone,Child Care Center
+357,40,Level 8 Certification,Early Childhood Teacher,55,4.58,40,23.41,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,20892,Gallatin,Child Care Center
+358,31,Level 3,Early Childhood Teacher,79,6.58,40,8.3,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,20049,Yellowstone,Child Care Center
+359,28,Level 1,Early Childhood Teacher,10,0.83,35,9.15,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,21991,Ravalli,Child Care Center
+360,27,Level 3,Early Childhood Teacher,25,2.08,36,10.4,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,22213,Cascade,Child Care Center
+361,31,Level 5 Certification,Early Childhood Teacher,31,2.58,35,16,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14759,Gallatin,Child Care Center
+362,35,Level 2,Early Childhood Teacher,38,3.17,34,14,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,20319,Gallatin,Child Care Center
+363,39,Level 3,Early Childhood Teacher,76,6.33,40,14.62,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,15094,Ravalli,Child Care Center
+364,40,Level 2,Early Childhood Teacher,78,6.5,35,15,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,21173,Jefferson,Child Care Center
+365,31,Level 5 Certification,Early Childhood Teacher,29,2.42,30,14.12,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14710,Missoula,Child Care Center
+366,42,Level 3,Early Childhood Teacher,52,4.33,40,13.71,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,20384,Cascade,Child Care Center
+367,28,Level 8 Certification,Early Childhood Teacher,34,2.83,40,13,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,21193,Gallatin,Child Care Center
+368,26,Level 2,Early Childhood Teacher,42,3.5,40,9,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,14842,Cascade,Child Care Center
+369,25,Level 1,Early Childhood Teacher,11,0.92,40,11.5,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,20682,Flathead,Child Care Center
+370,54,Level 2,Early Childhood Teacher,53,4.42,37,14,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,21416,Gallatin,Child Care Center
+371,39,Level 2,Early Childhood Teacher,71,5.92,40,11.5,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,16402,Gallatin,Child Care Center
+372,28,Level 2,Early Childhood Teacher,19,1.58,40,12,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14953,Missoula,Child Care Center
+373,24,Level 2,Early Childhood Teacher,37,3.08,40,13.56,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,20384,Cascade,Child Care Center
+374,28,Level 2,Early Childhood Teacher,26,2.17,40,11,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,15420,Lewis and Clark,Child Care Center
+375,34,Level 1,Early Childhood Teacher,29,2.42,40,9,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,15350,Lake,Child Care Center
+376,36,Level 2,Early Childhood Teacher,30,2.5,32,12.57,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14984,Carbon,Child Care Center
+377,26,Level 2,Early Childhood Teacher,70,5.83,30,12,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,20421,Yellowstone,Child Care Center
+378,34,Level 2,Early Childhood Teacher,9,0.75,30,10,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,20033,Yellowstone,Child Care Center
+379,38,Level 8 Certification,Early Childhood Teacher,7,0.58,40,11,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,21405,Gallatin,Child Care Center
+380,25,Level 1,Early Childhood Teacher,31,2.58,40,12,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14709,Yellowstone,Child Care Center
+381,24,Level 2,Early Childhood Teacher,33,2.75,40,14,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,14877,Flathead,Child Care Center
+382,22,Level 2,Early Childhood Teacher,68,5.67,40,12,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14877,Flathead,Child Care Center
+383,51,Level 2,Early Childhood Teacher,9,0.75,40,8.5,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,20154,Silver Bow,Child Care Center
+384,22,Level 1,Early Childhood Teacher,7,0.58,40,10,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,23167,Lewis and Clark,Child Care Center
+385,46,Level 3,Early Childhood Teacher,55,4.58,40,16,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,20395,Gallatin,Child Care Center
+386,63,Level 2,Early Childhood Teacher,64,5.33,20,8.5,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,20440,Cascade,Child Care Center
+387,53,Level 2,Early Childhood Teacher,18,1.5,40,0,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,22282,Lewis and Clark,Child Care Center
+388,63,Level 2,Early Childhood Teacher,7,0.58,40,9.25,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,20034,Yellowstone,Child Care Center
+389,48,Level 2,Early Childhood Teacher,66,5.5,40,11.19,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14755,Yellowstone,Child Care Center
+390,50,Level 1,Early Childhood Teacher,66,5.5,40,10.5,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,14850,Gallatin,Child Care Center
+391,38,Level 2,Early Childhood Teacher,69,5.75,16,13,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,21492,Flathead,Child Care Center
+392,24,Level 3,Early Childhood Teacher,30,2.5,40,11.35,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,15420,Lewis and Clark,Child Care Center
+393,30,Level 3,Early Childhood Teacher,66,5.5,40,16.23,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14826,Cascade,Child Care Center
+394,58,Level 9 Certification,Early Childhood Teacher,54,4.5,40,15.57,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14775,Lewis and Clark,Child Care Center
+395,55,Level 1,Early Childhood Teacher,125,10.42,40,13.31,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,22740,Deer Lodge,Child Care Center
+396,60,Level 2,Early Childhood Teacher,64,5.33,32,10.5,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,20033,Yellowstone,Child Care Center
+397,47,Level 2,Early Childhood Teacher,66,5.5,27,12.58,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14721,Flathead,Child Care Center
+398,23,Level 3,Early Childhood Teacher,42,3.5,40,10.25,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,14800,Lewis and Clark,Child Care Center
+399,46,Level 3,Early Childhood Teacher,46,3.83,20,9.5,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,21222,Fergus,Child Care Center
+400,33,Level 2,Early Childhood Teacher,41,3.42,30,17,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,21337,Gallatin,Child Care Center
+401,52,Level 7 Certification,Early Childhood Teacher,44,3.67,40,22.1,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,15351,Lewis and Clark,Child Care Center
+402,33,Level 2,Early Childhood Teacher,4,0.33,37,12.25,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,21416,Gallatin,Child Care Center
+403,33,Level 2,Early Childhood Teacher,2,0.17,40,10.1,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,23373,Cascade,Child Care Center
+404,29,Level 2,Early Childhood Teacher,17,1.42,12,12,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,15111,Yellowstone,Child Care Center
+405,29,Level 3,Early Childhood Teacher,63,5.25,40,12,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,20595,Jefferson,Child Care Center
+406,48,Level 1,Early Childhood Teacher,60,5,40,13,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,17194,Flathead,Child Care Center
+407,36,Level 4,Early Childhood Teacher,26,2.17,25,9.25,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,14761,Missoula,Child Care Center
+408,36,Level 4,Early Childhood Teacher,63,5.25,40,12.25,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,21173,Jefferson,Child Care Center
+409,23,Level 1,Early Childhood Teacher,62,5.17,25,9.5,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,14850,Gallatin,Child Care Center
+410,25,Level 5 Certification,Early Childhood Teacher,32,2.67,40,14.5,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14711,Flathead,Child Care Center
+411,31,Level 1,Early Childhood Teacher,43,3.58,40,16,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,20439,Missoula,Child Care Center
+412,24,Level 1,Early Childhood Teacher,57,4.75,40,9.9,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,20525,Cascade,Child Care Center
+413,24,Level 1,Early Childhood Teacher,17,1.42,40,9.85,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,20525,Cascade,Child Care Center
+414,27,Level 2,Early Childhood Teacher,60,5,37,13,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,19718,Yellowstone,Child Care Center
+415,23,Level 1,Early Childhood Teacher,60,5,30,14,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,19718,Yellowstone,Child Care Center
+416,24,Level 5 Certification,Early Childhood Teacher,57,4.75,35,13,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,21173,Jefferson,Child Care Center
+417,25,Level 5 Certification,Early Childhood Teacher,54,4.5,35,11.23,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,22617,Dawson,Child Care Center
+418,38,Level 2,Early Childhood Teacher,39,3.25,20,11,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,21577,Beaverhead,Child Care Center
+419,54,Level 2,Early Childhood Teacher,24,2,40,10,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,20639,Missoula,Child Care Center
+420,26,Level 1,Early Childhood Teacher,26,2.17,40,10,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,23167,Lewis and Clark,Child Care Center
+421,24,Level 3,Early Childhood Teacher,2,0.17,36,11,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,22213,Cascade,Child Care Center
+422,44,Level 4,Early Childhood Teacher,61,5.08,40,10.25,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,20639,Missoula,Child Care Center
+423,27,Level 5 Certification,Early Childhood Teacher,31,2.58,25,0,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,22210,Yellowstone,Child Care Center
+424,24,Level 2,Early Childhood Teacher,5,0.42,40,11,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14934,Lewis and Clark,Child Care Center
+425,32,Level 2,Early Childhood Teacher,48,4,35,13.72,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,21764,Missoula,Child Care Center
+426,27,Level 2,Early Childhood Teacher,25,2.08,40,13.5,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,22365,Missoula,Child Care Center
+427,24,Level 1,Early Childhood Teacher,12,1,40,10.5,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,21498,Yellowstone,Child Care Center
+428,61,Level 2,Early Childhood Teacher,32,2.67,40,9,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,21518,Cascade,Child Care Center
+429,27,Level 9 Certification,Early Childhood Teacher,22,1.83,40,16.5,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,15503,Cascade,Child Care Center
+430,34,Level 1,Early Childhood Teacher,16,1.33,40,12,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,22838,Yellowstone,Child Care Center
+431,29,Level 4,Early Childhood Teacher,11,0.92,29,13.59,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,14721,Flathead,Child Care Center
+432,27,Level 4,Early Childhood Teacher,18,1.5,39,14,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,14909,Flathead,Child Care Center
+433,23,Level 2,Early Childhood Teacher,14,1.17,35,13,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,21337,Gallatin,Child Care Center
+434,53,Level 2,Early Childhood Teacher,19,1.58,40,16.5,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,22513,Yellowstone,Child Care Center
+435,23,Level 3,Early Childhood Teacher,5,0.42,40,10,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,15451,Silver Bow,Child Care Center
+436,53,Level 2,Early Childhood Teacher,45,3.75,40,14.2,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,15038,Missoula,Child Care Center
+437,33,Level 2,Early Childhood Teacher,53,4.42,40,15.48,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,20319,Gallatin,Child Care Center
+438,28,Level 1,Early Childhood Teacher,7,0.58,40,10,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,14761,Missoula,Child Care Center
+439,51,Level 5 Certification,Early Childhood Teacher,31,2.58,36,16.66,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,22513,Yellowstone,Child Care Center
+440,52,Level 2,Early Childhood Teacher,40,3.33,40,10.25,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,21032,Silver Bow,Child Care Center
+441,23,Level 2,Early Childhood Teacher,56,4.67,34,11.5,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,21498,Yellowstone,Child Care Center
+442,21,Level 2,Early Childhood Teacher,26,2.17,30,9,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14740,Ravalli,Child Care Center
+443,32,Level 5 Certification,Early Childhood Teacher,53,4.42,40,15.87,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14898,Hill,Child Care Center
+444,35,Level 2,Early Childhood Teacher,18,1.5,40,10.75,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,20421,Yellowstone,Child Care Center
+445,59,Level 6 Certification,Early Childhood Teacher,51,4.25,40,20.34,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,16256,Lake,Child Care Center
+446,23,Level 1,Early Childhood Teacher,12,1,40,11,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,21198,Missoula,Child Care Center
+447,25,Level 8 Certification,Early Childhood Teacher,27,2.25,40,13,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14938,Gallatin,Child Care Center
+448,26,Level 8 Certification,Early Childhood Teacher,19,1.58,35,18,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14759,Gallatin,Child Care Center
+449,23,Level 1,Early Childhood Teacher,52,4.33,40,9,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,20695,Yellowstone,Child Care Center
+450,60,Level 2,Early Childhood Teacher,51,4.25,40,12.5,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,21173,Jefferson,Child Care Center
+451,47,Level 2,Early Childhood Teacher,52,4.33,40,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,15212,Flathead,Child Care Center
+452,28,Level 3,Early Childhood Teacher,25,2.08,38,11,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,22213,Cascade,Child Care Center
+453,38,Level 5 Certification,Early Childhood Teacher,51,4.25,40,11.36,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14737,Missoula,Child Care Center
+454,29,Level 1,Early Childhood Teacher,16,1.33,40,12,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,22185,Flathead,Child Care Center
+455,21,Level 1,Early Childhood Teacher,50,4.17,36,8.6,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,14901,Stillwater,Child Care Center
+456,39,Level 2,Early Childhood Teacher,80,6.67,40,14.6,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,15212,Flathead,Child Care Center
+457,24,Level 2,Early Childhood Teacher,21,1.75,40,10.5,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,20033,Yellowstone,Child Care Center
+458,28,Level 2,Early Childhood Teacher,49,4.08,40,15.36,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14898,Hill,Child Care Center
+459,48,Level 1,Early Childhood Teacher,12,1,40,10.75,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14737,Missoula,Child Care Center
+460,23,Level 2,Early Childhood Teacher,44,3.67,40,10,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,22617,Dawson,Child Care Center
+461,23,Level 1,Early Childhood Teacher,13,1.08,40,10,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,22838,Yellowstone,Child Care Center
+462,49,Level 5 Certification,Early Childhood Teacher,28,2.33,30,0,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,22646,Flathead,Child Care Center
+463,41,Level 1,Early Childhood Teacher,30,2.5,10,0,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,22851,Yellowstone,Child Care Center
+464,24,Level 3,Early Childhood Teacher,48,4,25,10,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,14737,Missoula,Child Care Center
+465,27,Level 1,Early Childhood Teacher,33,2.75,40,0,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,22851,Yellowstone,Child Care Center
+466,30,Level 1,Early Childhood Teacher,19,1.58,24,11,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,20283,Madison,Child Care Center
+467,23,Level 2,Early Childhood Teacher,39,3.25,40,12.5,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,14744,Yellowstone,Child Care Center
+468,50,Level 1,Early Childhood Teacher,49,4.08,40,10.5,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14850,Gallatin,Child Care Center
+469,37,Level 2,Early Childhood Teacher,13,1.08,15,9,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,20630,Yellowstone,Child Care Center
+470,28,Level 2,Early Childhood Teacher,24,2,40,13,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,22695,Yellowstone,Child Care Center
+471,23,Level 2,Early Childhood Teacher,15,1.25,20,11.5,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,15310,Missoula,Child Care Center
+472,38,Level 3,Early Childhood Teacher,17,1.42,35,10.1,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,15451,Silver Bow,Child Care Center
+473,23,Level 5 Certification,Early Childhood Teacher,9,0.75,40,11,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,15409,Cascade,Child Care Center
+474,30,Level 2,Early Childhood Teacher,45,3.75,40,14.77,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14819,Missoula,Child Care Center
+475,47,Level 2,Early Childhood Teacher,18,1.5,40,12.5,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,22695,Yellowstone,Child Care Center
+476,21,Level 1,Early Childhood Teacher,18,1.5,40,9.25,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,23240,Cascade,Child Care Center
+477,36,Level 1,Early Childhood Teacher,45,3.75,40,13,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,22624,Missoula,Child Care Center
+478,29,Level 1,Early Childhood Teacher,24,2,40,11,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,21198,Missoula,Child Care Center
+479,39,Level 8 Certification,Early Childhood Teacher,31,2.58,40,19.26,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,23406,Gallatin,Child Care Center
+480,36,Level 1,Early Childhood Teacher,55,4.58,40,0,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,21806,Missoula,Child Care Center
+481,25,Level 2,Early Childhood Teacher,19,1.58,30,11,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,21198,Missoula,Child Care Center
+482,31,Level 4,Early Childhood Teacher,43,3.58,35,17.34,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14759,Gallatin,Child Care Center
+483,21,Level 1,Early Childhood Teacher,47,3.92,28,8.72,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,22617,Dawson,Child Care Center
+484,24,Level 1,Early Childhood Teacher,43,3.58,40,0,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,22851,Yellowstone,Child Care Center
+485,60,Level 1,Early Childhood Teacher,45,3.75,35,9,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,21991,Ravalli,Child Care Center
+486,25,Level 3,Early Childhood Teacher,6,0.5,40,11,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,22414,Lewis and Clark,Child Care Center
+487,23,Level 1,Early Childhood Teacher,42,3.5,40,12,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,20695,Yellowstone,Child Care Center
+488,31,Level 2,Early Childhood Teacher,45,3.75,20,10,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,21222,Fergus,Child Care Center
+489,57,Level 1,Early Childhood Teacher,43,3.58,40,11.6,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,21416,Gallatin,Child Care Center
+490,28,Level 8 Certification,Early Childhood Teacher,44,3.67,37,0,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14909,Flathead,Child Care Center
+491,61,Level 7 Certification,Early Childhood Teacher,44,3.67,40,11.39,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14755,Yellowstone,Child Care Center
+492,30,Level 3,Early Childhood Teacher,43,3.58,40,18,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14749,Gallatin,Child Care Center
+493,28,Level 2,Early Childhood Teacher,43,3.58,40,11,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,14744,Yellowstone,Child Care Center
+494,33,Level 2,Early Childhood Teacher,30,2.5,40,10.75,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,20421,Yellowstone,Child Care Center
+495,26,Level 1,Early Childhood Teacher,8,0.67,40,11.25,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,18733,Cascade,Child Care Center
+496,24,Level 3,Early Childhood Teacher,18,1.5,33,11,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14877,Flathead,Child Care Center
+497,30,Level 1,Early Childhood Teacher,0,0,40,13,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,21172,Park,Child Care Center
+498,34,Level 2,Early Childhood Teacher,31,2.58,35,14,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,15281,Flathead,Child Care Center
+499,24,Level 1,Early Childhood Teacher,43,3.58,40,12.38,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14818,Cascade,Child Care Center
+500,24,Level 7 Certification,Early Childhood Teacher,7,0.58,30,14.48,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14710,Missoula,Child Care Center
+501,36,Level 1,Early Childhood Teacher,18,1.5,40,9,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,20034,Yellowstone,Child Care Center
+502,45,Level 1,Early Childhood Teacher,42,3.5,40,13.5,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,23388,Ravalli,Child Care Center
+503,23,Level 2,Early Childhood Teacher,41,3.42,35,10.85,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,15451,Silver Bow,Child Care Center
+504,40,Level 2,Early Childhood Teacher,17,1.42,40,10,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,20416,Sheridan,Child Care Center
+505,69,Level 1,Early Childhood Teacher,42,3.5,40,9,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,14888,Yellowstone,Child Care Center
+506,34,Level 1,Early Childhood Teacher,7,0.58,40,14.06,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,15496,Lake,Child Care Center
+507,27,Level 2,Early Childhood Teacher,6,0.5,40,10.25,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,20641,Missoula,Child Care Center
+508,37,Level 2,Early Childhood Teacher,40,3.33,38,8.5,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14976,Yellowstone,Child Care Center
+509,44,Level 8 Certification,Early Childhood Teacher,39,3.25,40,15,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,15409,Cascade,Child Care Center
+510,57,Level 5 Certification,Early Childhood Teacher,18,1.5,40,15.05,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14873,Flathead,Child Care Center
+511,24,Level 1,Early Childhood Teacher,10,0.83,40,0,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,22851,Yellowstone,Child Care Center
+512,29,Level 2,Early Childhood Teacher,7,0.58,35,15,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,15281,Flathead,Child Care Center
+513,28,Level 8 Certification,Early Childhood Teacher,20,1.67,40,0,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,20200,Gallatin,Child Care Center
+514,49,Level 1,Early Childhood Teacher,16,1.33,40,10.25,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14850,Gallatin,Child Care Center
+515,21,Level 1,Early Childhood Teacher,8,0.67,40,10.5,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,22838,Yellowstone,Child Care Center
+516,42,Level 3,Early Childhood Teacher,40,3.33,40,15.59,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,20384,Cascade,Child Care Center
+517,37,Level 5 Certification,Early Childhood Teacher,13,1.08,36,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14739,Fergus,Child Care Center
+518,44,Level 2,Early Childhood Teacher,249,20.75,40,15,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,15350,Lake,Child Care Center
+519,30,Level 1,Early Childhood Teacher,37,3.08,20,12,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,19718,Yellowstone,Child Care Center
+520,31,Level 1,Early Childhood Teacher,36,3,40,12.5,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,20033,Yellowstone,Child Care Center
+521,56,Level 1,Early Childhood Teacher,7,0.58,40,16.56,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,22740,Deer Lodge,Child Care Center
+522,25,Level 2,Early Childhood Teacher,12,1,30,9.25,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,20421,Yellowstone,Child Care Center
+523,25,Level 3,Early Childhood Teacher,39,3.25,30,10.5,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,22210,Yellowstone,Child Care Center
+524,39,Level 1,Early Childhood Teacher,3,0.25,40,10,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,15409,Cascade,Child Care Center
+525,38,Level 1,Early Childhood Teacher,10,0.83,40,12.25,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,22045,Yellowstone,Child Care Center
+526,30,Level 1,Early Childhood Teacher,16,1.33,40,14.99,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14748,Glacier,Child Care Center
+527,25,Level 4,Early Childhood Teacher,11,0.92,40,14,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,22904,Gallatin,Child Care Center
+528,22,Level 1,Early Childhood Teacher,19,1.58,12,8.5,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14897,Missoula,Child Care Center
+529,22,Level 1,Early Childhood Teacher,7,0.58,40,9.5,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14934,Lewis and Clark,Child Care Center
+530,42,Level 2,Early Childhood Teacher,36,3,40,10,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,14747,Cascade,Child Care Center
+531,29,Level 6 Certification,Early Childhood Teacher,31,2.58,40,19.08,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,22105,Lincoln,Child Care Center
+532,21,Level 1,Early Childhood Teacher,35,2.92,40,10.8,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,14934,Lewis and Clark,Child Care Center
+533,21,Level 1,Early Childhood Teacher,33,2.75,40,12.5,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,22591,Gallatin,Child Care Center
+534,58,Level 1,Early Childhood Teacher,19,1.58,18,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,15128,Gallatin,Child Care Center
+535,25,Level 2,Early Childhood Teacher,32,2.67,40,11.5,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,19446,Gallatin,Child Care Center
+536,30,Level 8 Certification,Early Childhood Teacher,31,2.58,40,15.32,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,15352,Lewis and Clark,Child Care Center
+537,62,Level 1,Early Childhood Teacher,31,2.58,22,13.82,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,15212,Flathead,Child Care Center
+538,24,Level 1,Early Childhood Teacher,33,2.75,40,10,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14954,Rosebud,Child Care Center
+539,57,Level 1,Early Childhood Teacher,32,2.67,40,10,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,21172,Park,Child Care Center
+540,26,Level 2,Early Childhood Teacher,26,2.17,40,13,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,22365,Missoula,Child Care Center
+541,38,Level 2,Early Childhood Teacher,31,2.58,40,0,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,15111,Yellowstone,Child Care Center
+542,39,Level 1,Early Childhood Teacher,19,1.58,40,9.75,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,22151,Flathead,Child Care Center
+543,49,Level 1,Early Childhood Teacher,31,2.58,40,10,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,22151,Flathead,Child Care Center
+544,26,Level 3,Early Childhood Teacher,16,1.33,40,9,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,15503,Cascade,Child Care Center
+545,54,Level 1,Early Childhood Teacher,7,0.58,40,22,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,15496,Lake,Child Care Center
+546,43,Level 1,Early Childhood Teacher,30,2.5,40,11.5,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14877,Flathead,Child Care Center
+547,59,Level 1,Early Childhood Teacher,30,2.5,16,9.5,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,22151,Flathead,Child Care Center
+548,22,Level 2,Early Childhood Teacher,18,1.5,30,12,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,22615,Missoula,Child Care Center
+549,23,Level 1,Early Childhood Teacher,31,2.58,36,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14739,Fergus,Child Care Center
+550,61,Level 3,Early Childhood Teacher,22,1.83,22,11,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,20283,Madison,Child Care Center
+551,54,Level 1,Early Childhood Teacher,21,1.75,35,13,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,20323,Gallatin,Child Care Center
+552,24,Level 2,Early Childhood Teacher,27,2.25,24,9,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14848,Silver Bow,Child Care Center
+553,21,Level 2,Early Childhood Teacher,27,2.25,40,9,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14848,Silver Bow,Child Care Center
+554,29,Level 1,Early Childhood Teacher,27,2.25,40,0,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,20200,Gallatin,Child Care Center
+555,37,Level 1,Early Childhood Teacher,26,2.17,30,14.25,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,22598,Gallatin,Child Care Center
+556,38,Level 2,Early Childhood Teacher,27,2.25,40,11,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,20247,Lewis and Clark,Child Care Center
+557,25,Level 2,Early Childhood Teacher,10,0.83,40,11,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,22669,Lewis and Clark,Child Care Center
+558,26,Level 1,Early Childhood Teacher,28,2.33,40,11,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,20647,Flathead,Child Care Center
+559,23,Level 2,Early Childhood Teacher,4,0.33,10,10,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,15470,Missoula,Child Care Center
+560,44,Level 1,Early Childhood Teacher,43,3.58,9,21,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,22852,Cascade,Child Care Center
+561,35,Level 2,Early Childhood Teacher,26,2.17,40,12.75,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,22598,Gallatin,Child Care Center
+562,21,Level 1,Early Childhood Teacher,26,2.17,40,8.5,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,22284,Yellowstone,Child Care Center
+563,32,Level 2,Early Childhood Teacher,5,0.42,30,11,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,21173,Jefferson,Child Care Center
+564,32,Level 1,Early Childhood Teacher,26,2.17,38,0,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,15212,Flathead,Child Care Center
+565,28,Level 1,Early Childhood Teacher,27,2.25,40,11,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,20229,Gallatin,Child Care Center
+566,44,Level 1,Early Childhood Teacher,28,2.33,30,11.36,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14721,Flathead,Child Care Center
+567,26,Level 1,Early Childhood Teacher,2,0.17,40,14,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,22904,Gallatin,Child Care Center
+568,28,Level 1,Early Childhood Teacher,24,2,40,12,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,22566,Flathead,Child Care Center
+569,29,Level 1,Early Childhood Teacher,23,1.92,40,9.75,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,15514,Yellowstone,Child Care Center
+570,46,Level 5 Certification,Early Childhood Teacher,23,1.92,40,13,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,20682,Flathead,Child Care Center
+571,35,Level 4,Early Childhood Teacher,24,2,40,13.65,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14818,Cascade,Child Care Center
+572,23,Level 1,Early Childhood Teacher,10,0.83,40,11.5,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,22566,Flathead,Child Care Center
+573,23,Level 2,Early Childhood Teacher,21,1.75,40,8.5,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14848,Silver Bow,Child Care Center
+574,29,Level 8 Certification,Early Childhood Teacher,21,1.75,40,12,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14877,Flathead,Child Care Center
+575,20,Level 1,Early Childhood Teacher,3,0.25,35,10.75,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,20641,Missoula,Child Care Center
+576,47,Membership,Early Childhood Teacher,51,4.25,40,12,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,21498,Yellowstone,Child Care Center
+577,25,Level 4,Early Childhood Teacher,21,1.75,40,14.25,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,22598,Gallatin,Child Care Center
+578,21,Level 2,Early Childhood Teacher,18,1.5,37,10,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,20498,Gallatin,Child Care Center
+579,34,Level 1,Early Childhood Teacher,21,1.75,40,15.5,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,15135,Park,Child Care Center
+580,23,Level 2,Early Childhood Teacher,20,1.67,40,11,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14705,Silver Bow,Child Care Center
+581,26,Level 1,Early Childhood Teacher,5,0.42,40,10.5,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,20639,Missoula,Child Care Center
+582,26,Level 1,Early Childhood Teacher,7,0.58,40,10,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,20639,Missoula,Child Care Center
+583,24,Level 2,Early Childhood Teacher,14,1.17,40,10.5,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14705,Silver Bow,Child Care Center
+584,26,Level 1,Early Childhood Teacher,18,1.5,40,10.75,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,20641,Missoula,Child Care Center
+585,21,Level 2,Early Childhood Teacher,14,1.17,40,10,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,20639,Missoula,Child Care Center
+586,31,Level 2,Early Childhood Teacher,42,3.5,40,14.64,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,22513,Yellowstone,Child Care Center
+587,30,Level 4,Early Childhood Teacher,21,1.75,40,14.25,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,22598,Gallatin,Child Care Center
+588,28,Level 5 Certification,Early Childhood Teacher,11,0.92,40,15,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,21172,Park,Child Care Center
+589,29,Level 2,Early Childhood Teacher,19,1.58,40,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,21131,Park,Child Care Center
+590,41,Level 4,Early Childhood Teacher,6,0.5,40,20.5,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,15388,Lake,Child Care Center
+591,39,Level 1,Early Childhood Teacher,18,1.5,40,12.5,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,20682,Flathead,Child Care Center
+592,70,Level 1,Early Childhood Teacher,19,1.58,27,9.35,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,22151,Flathead,Child Care Center
+593,45,Level 1,Early Childhood Teacher,7,0.58,40,10,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,22151,Flathead,Child Care Center
+594,20,Level 1,Early Childhood Teacher,6,0.5,40,9,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,20639,Missoula,Child Care Center
+595,22,Level 1,Early Childhood Teacher,14,1.17,32,10.5,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,22513,Yellowstone,Child Care Center
+596,35,Level 1,Early Childhood Teacher,17,1.42,40,10,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,20104,Cascade,Child Care Center
+597,20,Level 2,Early Childhood Teacher,6,0.5,40,10,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,15470,Missoula,Child Care Center
+598,29,Level 5 Certification,Early Childhood Teacher,8,0.67,40,11.5,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,15310,Missoula,Child Care Center
+599,48,Level 1,Early Childhood Teacher,18,1.5,40,10.1,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14934,Lewis and Clark,Child Care Center
+600,32,Level 8 Certification,Early Childhood Teacher,18,1.5,40,13,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,22610,Beaverhead,Child Care Center
+601,22,Level 2,Early Childhood Teacher,17,1.42,40,10.5,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14705,Silver Bow,Child Care Center
+602,57,Level 1,Early Childhood Teacher,16,1.33,40,0,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,22851,Yellowstone,Child Care Center
+603,26,Level 8 Certification,Early Childhood Teacher,6,0.5,40,15,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,22904,Gallatin,Child Care Center
+604,63,Level 1,Early Childhood Teacher,16,1.33,40,13,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,21254,Richland,Child Care Center
+605,59,Level 8 Certification,Early Childhood Teacher,18,1.5,35,9.42,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,21991,Ravalli,Child Care Center
+606,31,Level 2,Early Childhood Teacher,7,0.58,21,11.11,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,14864,Missoula,Child Care Center
+607,25,Level 1,Early Childhood Teacher,11,0.92,40,12,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,22045,Yellowstone,Child Care Center
+608,54,Level 6 Certification,Early Childhood Teacher,13,1.08,25,11.25,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,15083,Lewis and Clark,Child Care Center
+609,58,Level 6 Certification,Early Childhood Teacher,16,1.33,40,12.7,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,21416,Gallatin,Child Care Center
+610,21,Level 1,Early Childhood Teacher,3,0.25,40,12,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14913,Gallatin,Child Care Center
+611,23,Level 1,Early Childhood Teacher,13,1.08,40,11,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,15044,Gallatin,Child Care Center
+612,25,Level 1,Early Childhood Teacher,6,0.5,40,10,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,20639,Missoula,Child Care Center
+613,27,Level 8 Certification,Early Childhood Teacher,12,1,38,17.5,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,20200,Gallatin,Child Care Center
+614,60,Level 2,Early Childhood Teacher,11,0.92,10,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,15090,Lewis and Clark,Child Care Center
+615,32,Level 2,Early Childhood Teacher,12,1,40,9.75,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,21831,Cascade,Child Care Center
+616,61,Membership,Early Childhood Teacher,197,16.42,35,0,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,22851,Yellowstone,Child Care Center
+617,62,Level 1,Early Childhood Teacher,11,0.92,40,0,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,14997,Flathead,Child Care Center
+618,32,Level 1,Early Childhood Teacher,10,0.83,40,0,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,15111,Yellowstone,Child Care Center
+619,23,Level 1,Early Childhood Teacher,10,0.83,10,8.3,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,15132,Missoula,Child Care Center
+620,42,Level 8 Certification,Early Childhood Teacher,10,0.83,40,13.25,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,14818,Cascade,Child Care Center
+621,50,Level 3,Early Childhood Teacher,8,0.67,40,12,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,20229,Gallatin,Child Care Center
+622,21,Level 1,Early Childhood Teacher,4,0.33,40,13.3,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14898,Hill,Child Care Center
+623,29,Level 1,Early Childhood Teacher,22,1.83,40,20,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,22282,Lewis and Clark,Child Care Center
+624,32,Level 5 Certification,Early Childhood Teacher,7,0.58,40,11.22,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,15038,Missoula,Child Care Center
+625,31,Level 3,Early Childhood Teacher,9,0.75,28,13,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,22624,Missoula,Child Care Center
+626,29,Level 2,Early Childhood Teacher,10,0.83,40,14.35,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14711,Flathead,Child Care Center
+627,39,Level 1,Early Childhood Teacher,7,0.58,40,0,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,15038,Missoula,Child Care Center
+628,27,Level 1,Early Childhood Teacher,7,0.58,40,14,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,20247,Lewis and Clark,Child Care Center
+629,72,Level 3,Early Childhood Teacher,7,0.58,35,10.25,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,22210,Yellowstone,Child Care Center
+630,36,Level 2,Early Childhood Teacher,7,0.58,40,14.82,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14775,Lewis and Clark,Child Care Center
+631,26,Level 4,Early Childhood Teacher,8,0.67,40,13.25,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,14818,Cascade,Child Care Center
+632,24,Level 1,Early Childhood Teacher,7,0.58,40,10,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,20329,Missoula,Child Care Center
+633,25,Level 2,Early Childhood Teacher,7,0.58,37,11.5,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,14745,Yellowstone,Child Care Center
+634,53,Level 7 Certification,Early Childhood Teacher,11,0.92,30,17.44,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,14898,Hill,Child Care Center
+635,21,Level 1,Early Childhood Teacher,7,0.58,40,10,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,20639,Missoula,Child Care Center
+636,63,Level 1,Early Childhood Teacher,15,1.25,20,11,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,19794,Cascade,Child Care Center
+637,21,Level 1,Early Childhood Teacher,7,0.58,40,9.5,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,20639,Missoula,Child Care Center
+638,25,Level 1,Early Childhood Teacher,7,0.58,30,12,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,22624,Missoula,Child Care Center
+639,47,Level 1,Early Childhood Teacher,6,0.5,30,9,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,22396,Big Horn,Child Care Center
+640,21,Level 1,Early Childhood Teacher,6,0.5,20,8.3,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,15132,Missoula,Child Care Center
+641,21,Level 1,Early Childhood Teacher,6,0.5,12,8.3,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,15132,Missoula,Child Care Center
+642,20,Level 1,Early Childhood Teacher,7,0.58,20,0,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,15132,Missoula,Child Care Center
+643,21,Level 1,Early Childhood Teacher,5,0.42,40,0,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,22365,Missoula,Child Care Center
+644,23,Level 1,Early Childhood Teacher,5,0.42,40,9.5,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,15409,Cascade,Child Care Center
+645,47,Level 1,Early Childhood Teacher,5,0.42,40,15.67,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,14710,Missoula,Child Care Center
+646,40,Level 1,Early Childhood Teacher,4,0.33,30,13,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,23029,Jefferson,Child Care Center
+647,35,Level 1,Early Childhood Teacher,4,0.33,40,11.5,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,21904,Yellowstone,Child Care Center
