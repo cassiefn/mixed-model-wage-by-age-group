@@ -1,0 +1,437 @@
+---
+title: "Impacts of Working with Different Age Groups on Early Childhood Teacher Earnings"
+author: "Cassie Noble"
+date: "Spring 2019"
+output: word_document
+---
+
+#### Introduction
+
+Compensation is widely understood to be a major issue in the field of early childhood education (Workman, 2018). Previous research and initiatives on compensation parity in the field of early childhood have primarily focused on compensating preschool teachers more closely to their elementary school counterparts (Barnett & Kasmin, 2017). Recent interest in infant and toddler initiatives have spurred conversations around differences in compensation for preschool teachers vs. those who work with younger age groups.
+
+The research question addressed in this analysis focuses on the impact of the age group an early childhood teacher works with (infants, toddlers, and/or preschoolers) on their hourly wage. Does working with infants vs. toddlers vs. preschoolers impact hourly wage? Does working with multiple groups impact wage in some way other than just the additive effect of each of those groups alone? I plan to test for any interaction effects between the three age groups tested.
+
+#### Study Design
+
+These data were collected from the Montana Early Childhood Project Practitioner Registry, a database of workforce data on individuals who work in the field of early care and education in the state of Montana (Early Childhood Project, 1999). The data collected for this analysis were focused to center-based early childhood teachers, who were current on the Practitioner Registry as of April 2019.
+
+The response variable of interest is hourly wage (U.S. dollars). See Figure 1 for a plot of the distribution of teacher hourly wages (Phillips, 2017). As wages in this field tend to be low, we run into a lower bound of minimum wage ($8.30 in Montana at the time of data collection), which causes right-skewness in the wage data. A log-transformation was conducted on the wage variable, a distribution which can also be seen in the same plot.
+
+The predictor variables of interest are the age groups a teacher works with. Age groups here include infants, toddlers, and preschoolers. One teacher may work with multiple age groups, so each teacher is assigned either true or false for each age group depending on whether they work with them or not. See Table 1 for counts of each age group combination. Note that this is not a balanced design as there are not equal numbers of observations for each group. 
+
+This is an observational study, as teachers were not assigned age groups. Information was also collected on the program the teacher works at, and the county they are employed in. County of employment was included as a group effect, to control for the fact that multiple teachers may work in one county. Teacher wages within the same county may be more similar than teachers from different counties. Teachers from the same program are also likely more similar, but there were not enough teachers per program, or programs per county, to include this effect.
+
+Other variables studied include: length of employment in current position, age, average number of hours worked per week, and Career Path level. All participants of the Practitioner Registry are assigned a level on the Career Path based on education and experience. The Career Path spans from entry level “Membership” and includes those without a high school diploma, to “Level 10” which requires a doctorate in early childhood. Career Path level was treated as a factor in this analysis. These variables were all controlled for in the final model. Figure 2 shows a diagram of the measurement structure of this study, including teachers nested within counties, and all fixed effects in the model (Gordon, 2019).
+
+All licensed providers are required to join the Practitioner Registry by July 2019, with a staggered implementation based on license expiration dates. These data on teachers represent more than one third of all licensed center-based teachers in Montana. The original data set can be assumed to be mostly representative of licensed center-based providers in Montana, as program license dates should not follow any sort of pattern. There is however an issue of missing wage data in the data set. Employment information collected is self-reported by the individual and subsequently verified by their employer. All data fields collected are required, except for wage which is optional to provide. See Table 2 for counts of if wage was reported or not (Xie, 2018). Figures 3-5 show proportions of wage reported by Career Path level, age, and length of employment. 
+
+Overall, 87.9% of subjects from the original data set provided wages. To deal with this issue of missing responses, an analysis was conducted to try to find any systematic predictors of reporting or not reporting wage. I fit a binomial generalized linear model to predict whether a teacher would report wage by their age, length of employment, or a simplified variable based on Career Path level (high or low based on whether college credit is required or not, respectively).
+
+There was little to no evidence against the null hypothesis that age or Career Path level has no impact on reporting wage (p=0.978 for age, p=0.452 for Career Path level). There was strong evidence against the null that length of employment has no impact on reporting wage (z=-3.622, p=0.0002). From the plot in Figure 5, and the effects plot in Figure 6 (Fox & Weisberg, 2018), we can see that we may have an issue with missing responses from the teachers that have been employed in their current position for longer lengths of time. We proceed forward with analyses, keeping in mind that we may not be able to infer results to subjects employed for longer lengths of time.
+
+The original data set contained 647 participants in 26 counties. After removing missing wages, we are left with 569 subjects in the same 26 counties.
+
+#### Statistical Procedure Used
+
+Summary statistics for wage by age group combinations are provided in Table 3 (Pruim, Kaplan, & Horton, 2017). Distributions of wages for each age group combination are shown in Figure 7. Figure 8 shows the same plots but for log-transformed wage distributions. The final model uses the log-transformed wage as the response, as that model better met model assumptions.
+
+All analyses were conducted using the R programming language (R Core Team, 2019). A mixed model was fit to account for the hierarchical structure of this study design (Bates et al., 2015), and a type II ANOVA to compare the categorical predictors and interactions.
+
+The Residuals vs. Fitted plot for the final model is provided in Figure 9. This plot shows some slight issues with non-constant variance but nothing too extreme. Figure 10 shows plots for assessing the normality of model residuals on the left, and normality of the county random effect on the right (Fox & Weisberg, 2011). The distribution for county meets the normality assumption. The model residuals show some slight right-skew. Figures 11 and 12 show the same diagnostic plots for the wage on the original scale. From these plots we can see that the log-transformation resulted in more constant variance, and less right-skew in the model residuals and county random effect.
+
+#### Summary of Statistical Findings
+
+The initial plan for this study was to do a step-down approach, by starting with the most complicated model possible (3-way interaction of infants by toddlers by preschoolers). However, there were not enough observations with reported wages in the infants by preschoolers group to include this interaction. This makes sense in context as it would be an unusual combination to work with infants and preschoolers but not toddlers.
+
+In this case the most complicated model is one which includes interactions of infants by toddlers, and toddlers by preschoolers. This model was fit, and infants by toddlers had the largest p-value ($t(5)=0.673$, $p=0.501$), so this term was dropped, and a new model fit. In the new model, infants had the largest p-value ($t(5)=-0.188$, $p=0.851$) and so this term was dropped. At this point the toddlers by preschoolers interaction was the only remaining variable of interest and its p-value was sufficiently small to retain in the model ($F(1, 545.12) = 6.347$, p-value $= 0.012$). The theoretical model for the final model is provided in Appendix A. 
+
+There is strong evidence against the null hypothesis of no interaction between working with toddlers and working with preschoolers on log-wages ($F(1, 545.12) = 6.347$, p-value $= 0.012$), in a model that controls for age, length of employment in current position, Career Path level, average number of hours worked per week, and county to county variance. This suggests a need to retain this interaction in the model. Figure 13 shows the effects plot for all model components. 
+
+Figure 14 shows the toddler by preschooler interaction effect overlaid in one plot. This plot shows that there is very little difference in log wage for those who don’t work with preschoolers, regardless of whether or not they work with toddlers. The highest wages were for those who work with preschoolers but not toddlers, and the lowest wages were among those who work with both preschoolers and toddlers. A table of all results from the type II ANOVA test is also provided in Table 4.
+
+The estimated correlation of wages between two individuals in the same county is 25.6%, after accounting for the fixed effects in the model (toddler by preschooler interaction, length of employment, age, Career Path level, and hours worked per week), indicating a moderate correlation. The fixed effects in this model account for 23.5% of the variance in wages, marginal $R^2=0.235$ (Barton, 2018). The random effect of county plus the fixed effects account for 43.1% of the variance in wages, conditional $R^2=0.431$.
+
+#### Scope of Inference
+
+This study did not involve random assignment of teacher to age group of children worked with. We can discuss relationships between the age group worked with and their hourly wage, but we cannot infer causation. The original data set was fairly representative of the population of center-based early childhood teachers in Montana. However, with missing responses, we must be careful with making inferences to larger populations. With systematic missing data from individuals employed for longer lengths of time, we are unable to make inferences to this group.
+
+This analysis leads us to the conclusion that whether a teacher works with preschoolers or not impacts log-wages differently depending on whether a teacher works with toddlers or not, while controlling for individual fixed effects and county to county variation.
+
+### References
+
+Barnett, W. S., & Kasmin, R. (2017). Teacher compensation parity policies and state-funded pre-k programs. Center for the Study of Child Care Employment, University of California, Berkeley. 
+
+Barton, K. (2018). MuMIn: Multi-Model Inference. R package version 1.42.1. URL: https://CRAN.R-project.org/package=MuMIn
+
+Bates, D., Maechler, M., Bolker, B., & Walker, S. (2015). Fitting Linear Mixed-Effects Models Using lme4. Journal of Statistical Software, 67(1), 1-48. doi:10.18637/jss.v067.i01.
+  
+Early Childhood Project. (2019). Practitioner Registry [database]. Retrieved April, 2019, from http://mtecp.org/
+
+Fox, J., & Weisberg, S. (2011). An {R} Companion to Applied Regression, Second Edition. Thousand Oaks CA: Sage. URL: http://socserv.socsci.mcmaster.ca/jfox/Books/Companion
+
+Fox, J., & Weisberg, S. (2018). Visualizing Fit and Lack of Fit in Complex Regression Models with Predictor Effect Plots and Partial Residuals. Journal of Statistical Software, 87(9), 1-27.
+
+Gordon, M. (2019). Gmisc: Descriptive Statistics, Transition Plots, and More. R package version 1.8. https://CRAN.R-project.org/package=Gmisc
+
+Kuznetsova A., Brockhoff P. B., & Christensen, R. H. B. (2017). “lmerTest Package: Tests in Linear Mixed Effects Models.” Journal of
+Statistical Software, 82(13), 1-26. doi: 10.18637/jss.v082.i13. URL: http://doi.org/10.18637/jss.v082.i13
+
+Phillips, N. (2017). yarrr: A Companion to the e-Book "YaRrr!: The Pirate's Guide to R". R package version 0.1.5. https://CRAN.R-project.org/package=yarrr
+  
+Pruim, R., Kaplan, D. T., & Horton, N. J. (2017). The mosaic Package: Helping Students to 'Think with Data' Using R. The R Journal, 9(1):77-102.
+  
+R Core Team. (2019). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria.
+
+Ramsey, F., & Schafer, D. (2012). The statistical sleuth: a course in methods of data analysis. Cengage Learning.
+
+Wickham, H., Hester, J., & Francois, R. (2018). readr: Read Rectangular Text Data. R package version 1.3.1. URL: https://CRAN.R-project.org/package=readr
+
+Workman, S. (2018). When preschool teachers can't afford care for their own children. The Hechinger Report. URL: https://hechingerreport.org/opinion-when-preschool-teachers-cant-afford-care-for-their-own-children/
+
+Xie, Y. (2018). knitr: A General-Purpose Package for Dynamic Report Generation in R. R package version 1.21.
+
+
+### Appendix A: Theoretical Model
+
+$$\mu\{LoggedHourlyWage_{ij} | Toddlers_{ij} * Preschoolers_{ij} + Age_{ij} + $$
+$$EmployLengthYear_{ij} + Level_{ij} + HoursPerWeek_{ij}\} =$$
+$$\beta_0 + \beta_1*I_{Toddlers = TRUE_{ij}} + \beta_2*I_{Preschoolers = TRUE_{ij}} + \beta_3*Age +$$
+$$ \beta_4*EmployLengthYear_{ij} + \beta_5*I_{Level_{ij}} + \beta_6*I_{HoursPerWeek_{ij}} + $$
+$$\beta_7*I_{Toddlers = TRUE_{ij}}*I_{Preschoolers = TRUE_{ij}} + County_i + \epsilon_{ij}$$
+
+with $County_i \sim N(0, \sigma_{County}^2$) and $\epsilon_{ij} \sim N(0, \sigma_{\epsilon_{ij}}^2)$
+
+where $$I_{Toddlers = TRUE_{ij}} = $$
+\[ \begin{cases} 
+      0 & False \\
+      1 & True
+   \end{cases}
+\]
+
+and $$I_{Preschoolers = TRUE_{ij}} = $$
+\[ \begin{cases} 
+      0 & False \\
+      1 & True
+   \end{cases}
+\]
+
+### Appendix B: Figures and Tables
+
+- COPY FIGURES AND TABLES FROM R CODE AND PUT HERE
+
+### Appendix C: R code
+
+```{r, warning = FALSE, message = FALSE, fig.height = 6, fig.width = 11}
+### study design diagram
+library(grid)
+library(Gmisc)
+grid.newpage()
+
+# set some parameters to use repeatedly
+treeleft <- .2
+treemid <-  .4
+treeright <- .6
+fixedcol <- 0.9
+width <- .18
+toplev <- 0.8
+bottomlev <- 0.3
+gp <- gpar(fill = "lightgrey")
+gpf <- gpar(fill = "skyblue")
+
+# label areas
+(mainlabel <- boxGrob("Measurement Structure", 
+ x=treemid, y=0.95, box_gp = gpar(fill="white"), width = 2*width))
+
+(fixedlabel <- boxGrob("Fixed Effects", 
+ x=fixedcol, y=0.95, box_gp = gpar(fill="white"), width = width))
+
+# create boxes
+(sub1 <- boxGrob("County 1", 
+ x=treeleft, y=toplev, box_gp = gp, width = width))
+
+(sub_ellipses <- boxGrob("...", 
+ x=treemid, y=toplev, box_gp = gp, width = width/2))
+
+(subI <- boxGrob("County 26", 
+ x=treeright, y=toplev, box_gp = gp, width = width))
+
+(fixedtop <- boxGrob("None", 
+                     x=fixedcol, y=toplev, box_gp = gpf, width = width/1.25))
+# observation level
+width_obs <- width/2
+(sub11 <- boxGrob("Subject 1", 
+ x=treeleft-width_obs-0.01, y=bottomlev, box_gp = gp, width = width_obs))
+
+(sub1_ellipses <- boxGrob("...", 
+ x=treeleft, y=bottomlev, box_gp = gp, width = width_obs/2))
+
+(sub1n_1 <- boxGrob("Subject n1", 
+ x=treeleft+width_obs+0.01, y=bottomlev, box_gp = gp, width = width_obs))
+
+(subI1 <- boxGrob("Subject 1", 
+ x=treeright-width_obs-0.01, y=bottomlev, box_gp = gp, width = width_obs))
+
+(subI_ellipses <- boxGrob("...", 
+ x=treeright, y=bottomlev, box_gp = gp, width = width_obs/2))
+
+(subIn_I <- boxGrob("Subject n26", 
+ x=treeright+width_obs+0.01, y=bottomlev, box_gp = gp, width = width_obs))
+
+
+(fixedbottom <- boxGrob("Age \n Employment Length \n Level \n Hrs/Week \n Age Group", 
+                     x=fixedcol, y=bottomlev, box_gp = gpf, width = width/1.25))
+
+# connect boxes
+connectGrob(sub1, sub11, "v")
+connectGrob(sub1, sub1n_1, "v")
+
+connectGrob(subI, subI1, "v")
+connectGrob(subI, subIn_I, "v")
+```
+
+```{r, warning = FALSE, message = FALSE}
+### read in data and basic formatting
+library(readr)
+
+# read in data
+workforce <- read_csv("TeacherWageAgeGroups.csv")
+
+# refactor
+workforce$County <- as.factor(workforce$County)
+workforce$Infants <- as.factor(workforce$Infants)
+workforce$Toddlers <- as.factor(workforce$Toddlers)
+workforce$Preschoolers <- as.factor(workforce$Preschoolers)
+workforce$OrgIdF <- as.factor(workforce$OrgId)
+workforce$Level <- as.factor(workforce$Level)
+workforce$Level <- relevel(workforce$Level, "Membership")
+levels(workforce$Level) <- c("Membership", "1", "2", "3", "4", "5", 
+                             "6", "7", "8", "9")
+
+# split PR levels into high vs. low depending on if college credit required
+workforce$LevelSimp <- "low"
+for(i in 1:nrow(workforce)){
+  if(workforce$Level[i] == 4 | workforce$Level[i] == 5 | workforce$Level[i] == 6 | 
+     workforce$Level[i] == 7 | workforce$Level[i] == 8 | workforce$Level[i] == 9){
+    workforce$LevelSimp[i] <- "high"
+  }
+}
+
+workforce$LevelSimp <- as.factor(workforce$LevelSimp)
+workforce$LevelSimp <- relevel(workforce$LevelSimp, "low")
+levels(workforce$LevelSimp)
+```
+
+
+```{r, warning = FALSE, message = FALSE}
+### deal with missing wage data
+
+# create variable for missing wage
+workforce$WageReported <- TRUE
+
+for(i in 1:nrow(workforce)){
+  if(workforce$HourlyWage[i] == 0){
+    workforce$WageReported[i] <- FALSE
+  }
+}
+
+workforce$WageReported <- as.factor(workforce$WageReported)
+levels(workforce$WageReported)
+
+# convert 0s to NAs for missing wage data
+for(i in 1:nrow(workforce)){
+  if(workforce$HourlyWage[i] == 0){
+    workforce$HourlyWage[i] <- NA
+  }
+}
+
+# subset to remove missing wages
+workforceSub <- subset(workforce, !is.na(HourlyWage)) 
+```
+
+```{r, fig.height = 6, fig.width = 10, warning = FALSE, message = FALSE}
+### view figures and tables surrounding missing wage data
+library(knitr)
+library(yarrr)
+
+# table wage reported counts
+reportWages <- table(workforce$WageReported)
+kable(reportWages, format = "markdown", col.names = 
+        c("Wage Reported", "Count"))
+
+# percent reported wage
+reportWages[2] / nrow(workforce)
+
+# sample sizes
+nrow(workforce)
+unique(workforce$County)
+nrow(workforceSub)
+unique(workforceSub$County)
+
+# registry level
+plot(WageReported ~ Level, data = workforce, 
+     xlab = "Career Path level", 
+     ylab = "Wage reported",
+     main = "Proportion of Subjects that Reported \n Hourly Wage by Career Path Level")
+
+# table wage reported by level
+levelTable <- xtabs(~ WageReported + Level, data = workforce)
+ftable(levelTable)
+
+# age
+cdplot(WageReported ~ Age, data = workforce, ylab = "Wage reported",
+       main = "Proportion of Subjects that Reported \n Hourly Wage by Age")
+
+# length of employment
+cdplot(WageReported ~ EmployLengthYear, data = workforce, 
+       ylab = "Wage reported", 
+       xlab = "Length of employment (years)", 
+       main = "Proportion of Subjects that Reported \n Hourly Wage by Length of Employment")
+```
+
+
+```{r, fig.height = 6, fig.width = 10, warning = FALSE, message = FALSE}
+### find any systematic predictors for missingness of wage data
+
+# wage reported by variables of possible interest
+glm1 <- glm(WageReported ~ Age + EmployLengthYear + LevelSimp, 
+            data = workforce, family = "binomial")
+summary(glm1)
+
+# effects plot
+library(effects)
+plot(allEffects(glm1)[2], ylab = "Wage Reported",
+     xlab = "Length of current employment (years)", 
+     main = "Effects Plot for Wage Reported by Length of Current Employment")
+```
+
+```{r, fig.height = 7, fig.width = 12, warning = FALSE, message = FALSE}
+### tables and plots of response and predictors
+library(mosaic)
+
+# table age group counts
+ageGroupTable1 <- xtabs(~ Infants + Toddlers + Preschoolers, 
+                        data = workforceSub)
+ftable(ageGroupTable1)
+
+# table each age group by wage
+favstats(HourlyWage ~ Infants + Toddlers + Preschoolers, data = workforce)
+
+# transform response
+workforceSub$LogWage <- log(workforceSub$HourlyWage)
+
+# plot untransformed wage data
+par(mfrow = c(1, 2))
+pirateplot(HourlyWage ~ WageReported, xlab = "", 
+           ylab = "Hourly wage (U.S. dollars)",
+           main = "Distribution of Hourly Wage",
+           data = workforceSub, theme = 3)
+
+# plot transformed wage data
+pirateplot(LogWage ~ WageReported, xlab = "", 
+           ylab = "Log-transformed hourly wage (U.S. dollars)",
+           main = "Distribution of Log-transformed Hourly Wage",
+           data = workforceSub, theme = 3)
+
+# plot untransformed wages by age groups
+par(mfrow = c(1, 1))
+pirateplot(HourlyWage ~ Infants + Toddlers + Preschoolers, 
+           data = workforceSub, theme = 3,
+           ylab = "Hourly wage")
+
+# plot transformed wage by age groups
+pirateplot(LogWage ~ Infants + Toddlers + Preschoolers, 
+           data = workforceSub, theme = 3,
+           ylab = "Log-transformed hourly wage")
+```
+
+
+```{r, warning = FALSE, message = FALSE}
+### fit mixed models 
+library(lme4)
+library(lmerTest)
+
+# wage by 2-way interactions that include toddlers
+lmer1 <- lmer(LogWage ~ Infants * Toddlers + Toddlers * Preschoolers +
+              Age + EmployLengthYear + Level + HoursPerWeek + (1|County), 
+              data = workforceSub)
+summary(lmer1)
+
+# reduce model (drop infants*toddlers)
+lmer2 <- lmer(LogWage ~ Toddlers * Preschoolers + Infants + 
+              Age + EmployLengthYear + Level + HoursPerWeek + (1|County), 
+              data = workforceSub)
+summary(lmer2)
+```
+
+```{r, fig.height = 7, fig.width = 12, warning = FALSE, message = FALSE}
+### fit final model
+
+# reduce model (drop infants)
+lmer3 <- lmer(LogWage ~ Toddlers * Preschoolers + Age + EmployLengthYear + 
+                Level + HoursPerWeek + (1|County), data = workforceSub)
+summary(lmer3)
+
+anovaResults <- anova(lmer3, type="II") 
+kable(anovaResults, format = "markdown")
+```
+
+```{r, fig.height = 7, fig.width = 12, warning = FALSE, message = FALSE}
+### assess model diagnostics
+library(car)
+# constant variance
+plot(lmer3, pch=16, main = "Residuals vs. Fitted Values")
+par(mfrow = c(1, 2))
+# normality of residuals
+q1 <- qqPlot(residuals(lmer3), envelope=F, pch=16, main = "Residuals vs. Normal")
+# normality of random effect
+q1 <- qqPlot(unlist(ranef(lmer3)[[1]]), envelope=F, pch=16, 
+             main = "County Effect vs. Normal")
+```
+
+```{r, fig.height = 7, fig.width = 12, warning = FALSE, message = FALSE}
+### effects plot
+par(mfrow = c(1, 1))
+library(effects)
+plot(allEffects(lmer3))
+plot(allEffects(lmer3)[5], multiline=T, ci.style="bars", grid=T, 
+     ylab = "Hourly Wage (log-transformed)",
+     main = "Toddlers by Preschoolers Interaction Effect Plot")
+```
+
+```{r, warning = FALSE, message = FALSE}
+### get confidence intervals
+confint(lmer3)
+```
+
+```{r, warning = FALSE, message = FALSE}
+### get r-squared
+library(MuMIn)
+r.squaredGLMM(lmer3)
+```
+
+```{r, warning = FALSE, message = FALSE}
+### get icc
+# icc = county variance / (county variance + residual variance)
+icc <- 0.01033 / (0.01033 + 0.03009)
+icc
+```
+
+```{r, fig.height = 7, fig.width = 12, warning = FALSE, message = FALSE}
+### fit same model with untransformed wage
+lmer4 <- lmer(HourlyWage ~ Toddlers * Preschoolers + Age + EmployLengthYear + 
+                Level + HoursPerWeek + (1|County), data = workforceSub)
+anova(lmer4, type="II") 
+summary(lmer4)
+
+### model diagnostics
+# constant variance
+plot(lmer4, pch=16, main = "Residuals vs. Fitted Values")
+par(mfrow = c(1, 2))
+# normality of residuals
+q1 <- qqPlot(residuals(lmer4), envelope=F, pch=16, 
+             main = "Residuals vs. Normal")
+# normality of random effect
+q1 <- qqPlot(unlist(ranef(lmer4)[[1]]), envelope=F, pch=16,
+             main = "County Effect vs. Normal")
+```
+
